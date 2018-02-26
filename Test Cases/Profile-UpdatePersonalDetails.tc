@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Profile-UpdatePersonalDetails</name>
+   <tag>profile</tag>
+   <comment></comment>
+   <testCaseGuid>d1ee658f-4b3c-4606-b5c4-3798057a8d39</testCaseGuid>
+</TestCaseEntity>
