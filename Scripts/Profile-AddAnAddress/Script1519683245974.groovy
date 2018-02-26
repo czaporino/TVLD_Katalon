@@ -27,3 +27,5 @@ WebUI.click(findTestObject('Page_ABB Group/a_My Profile'))
 
 WebUI.waitForPageLoad(1)
 
+WebUI.click(findTestObject('MyProfilePage/a_address book'))
+
