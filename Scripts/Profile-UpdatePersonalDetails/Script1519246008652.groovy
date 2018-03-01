@@ -22,45 +22,52 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
 
 WebUI.click(findTestObject('Page_ABB Group/a_My Profile'))
 
 WebUI.waitForPageLoad(2)
 
-WebUI.verifyElementPresent(findTestObject('MyProfilePage/font_Profile'), 1)
+WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/font_Profile'), 1)
 
-WebUI.click(findTestObject('MyProfilePage/a_personal details'))
-
-WebUI.waitForPageLoad(1)
-
-WebUI.verifyElementPresent(findTestObject('PersonalDetailsPage/font_Personal details'), 1)
-
-WebUI.click(findTestObject('PersonalDetailsPage/a_Update'))
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/a_personal details'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.verifyElementPresent(findTestObject('PersonalDetailsPage/font_Please note that your fir'), 1)
+WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/font_Personal details'), 1)
 
-WebUI.setText(findTestObject('PersonalDetailEdit/input_T_Middle_Name'), 'Lukasz')
-
-WebUI.setText(findTestObject('PersonalDetailEdit/input_T_Birth_Date_Visible'), '01/01/1999')
-
-WebUI.click(findTestObject('PersonalDetailEdit/a_Save changes'))
-
-WebUI.verifyElementPresent(findTestObject('MyProfilePage/b_ID information has been upda'), 1)
-
-WebUI.click(findTestObject('PersonalDetailsPage/a_Update'))
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/a_Update'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.setText(findTestObject('PersonalDetailEdit/input_T_Middle_Name'), '')
+WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/font_Please note that your fir'), 
+    1)
 
-WebUI.setText(findTestObject('PersonalDetailEdit/input_T_Birth_Date_Visible'), '')
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailEdit/input_T_Middle_Name'), 
+    'Lukasz')
 
-WebUI.click(findTestObject('PersonalDetailEdit/a_Save changes'))
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailEdit/input_T_Birth_Date_Visible'), 
+    '01/01/1999')
 
-WebUI.verifyElementPresent(findTestObject('MyProfilePage/b_ID information has been upda'), 1)
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailEdit/a_Save changes'))
+
+WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/b_ID information has been upda'), 1)
+
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/a_Update'))
+
+WebUI.waitForPageLoad(1)
+
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailEdit/input_T_Middle_Name'), 
+    '')
+
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailEdit/input_T_Birth_Date_Visible'), 
+    '')
+
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailEdit/a_Save changes'))
+
+WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/b_ID information has been upda'), 1)
 
 WebUI.closeBrowser()
 

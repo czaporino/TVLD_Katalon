@@ -21,11 +21,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
 
 WebUI.click(findTestObject('Page_ABB Group/a_My Profile'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.click(findTestObject('MyProfilePage/a_address book'))
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/a_address book'))
+
+WebUI.waitForPageLoad(1)
 

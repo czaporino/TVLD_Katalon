@@ -22,29 +22,32 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
 
 WebUI.click(findTestObject('Page_ABB Group/a_My Profile'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.verifyElementPresent(findTestObject('MyProfilePage/font_Profile'), 2)
+WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/font_Profile'), 2)
 
-WebUI.click(findTestObject('MyProfilePage/a_personal details'))
-
-WebUI.waitForPageLoad(1)
-
-WebUI.verifyElementPresent(findTestObject('PersonalDetailsPage/font_Personal details'), 1)
-
-WebUI.click(findTestObject('PersonalDetailsPage/a_Update'))
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/a_personal details'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.verifyElementPresent(findTestObject('PersonalDetailsPage/font_Please note that your fir'), 1)
+WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/font_Personal details'), 1)
 
-WebUI.click(findTestObject('PersonalDetailEdit/a_Cancel and go back'))
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/a_Update'))
 
-WebUI.verifyElementPresent(findTestObject('PersonalDetailsPage/font_Personal details'), 1)
+WebUI.waitForPageLoad(1)
+
+WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/font_Please note that your fir'), 
+    1)
+
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailEdit/a_Cancel and go back'))
+
+WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/font_Personal details'), 1)
 
 WebUI.closeBrowser()
 
