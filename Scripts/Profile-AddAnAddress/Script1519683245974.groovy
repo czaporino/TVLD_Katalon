@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -32,4 +33,40 @@ WebUI.waitForPageLoad(1)
 WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/a_address book'))
 
 WebUI.waitForPageLoad(1)
+
+WebUI.verifyTextPresent('This page enables you to update your address book. By default, you should use company delivery addresses, setup by your administrator.', 
+    true)
+
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/font_Add a business address'))
+
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEdit/input_T_Address_Name'), 'Abb address')
+
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEdit/input_T_Street_Name'), 'Przy Rondzie')
+
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEdit/input_T_City_Name'), 'Krakow')
+
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEdit/input_T_Postal_Code'), '10-001')
+
+WebUI.selectOptionByValue(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEdit/select_select a country'), 
+    'PL', true)
+
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEdit/input_CB_Default'))
+
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEdit/a_Save'))
+
+WebUI.verifyElementText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/a_AddressName'), 'Abb address')
+
+WebUI.verifyElementText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/font_AddressDetails'), 'Przy Rondzie')
+
+WebUI.verifyElementText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/font_City'), 'Krakow (10001)')
+
+WebUI.verifyElementText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/font_Country'), 'Poland')
+
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/img'))
+
+WebUI.waitForAlert(1)
+
+WebUI.acceptAlert()
+
+WebUI.closeBrowser()
 

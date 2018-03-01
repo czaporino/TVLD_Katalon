@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_CB_Default</name>
+   <tag></tag>
+   <elementGuidId>3256b92b-6cd1-4528-8228-88dbe90afe8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;DocumentBg withJs en-US windows useDeg chrome travel tdte svg-icon editaddress managementform editaddressprocess&quot;]/form[1]/table[1]/tbody[1]/tr[1]/td[@class=&quot;MainColumnBg&quot;]/table[1]/tbody[1]/tr[2]/td[1]/table[3]/tbody[1]/tr[1]/td[@class=&quot;MainBlockBorder&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;MainBlockBg&quot;]/table[2]/tbody[1]/tr[8]/td[1]/input[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>CB_Default</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Y</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[3]/tbody/tr/td/table/tbody/tr[1]/td/table[2]/tbody/tr[8]/td/input</value>
+   </webElementProperties>
+</WebElementEntity>
