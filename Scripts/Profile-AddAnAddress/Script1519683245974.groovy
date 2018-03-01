@@ -18,7 +18,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -30,24 +29,7 @@ WebUI.click(findTestObject('Page_ABB Group/a_My Profile'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/font_Profile'), 2)
-
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/a_personal details'))
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/a_address book'))
 
 WebUI.waitForPageLoad(1)
-
-WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/font_Personal details'), 1)
-
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/a_Update'))
-
-WebUI.waitForPageLoad(1)
-
-WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/font_Please note that your fir'), 
-    1)
-
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailEdit/a_Cancel and go back'))
-
-WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/font_Personal details'), 1)
-
-WebUI.closeBrowser()
 
