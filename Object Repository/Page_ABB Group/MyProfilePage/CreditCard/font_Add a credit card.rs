@@ -3,7 +3,7 @@
    <description></description>
    <name>font_Add a credit card</name>
    <tag></tag>
-   <elementGuidId>98c11378-7a35-45fa-a013-7b9631bdb3c6</elementGuidId>
+   <elementGuidId>7e697661-712f-4e38-998d-2a97b683c88d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_credit cards</name>
+   <name>a_Dashboards</name>
    <tag></tag>
-   <elementGuidId>84f23fed-0f06-4ef6-8dc1-869d03ae45f0</elementGuidId>
+   <elementGuidId>7762939d-5856-4ed3-9789-0789155bb456</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'credit cards' or . = 'credit cards')]</value>
+         <value>//*[(text() = 'Dashboards' or . = 'Dashboards')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,27 +24,20 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>MyProfileCreditCard.jsp?Rd=0.7234646674918938&amp;X=8537</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>ActionLink</value>
+      <value>/ReservationSite/DashboardMain.jsp?Rd=0.4207872388043894</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>credit cards</value>
+      <value>Dashboards</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;DocumentBg withJs en-US windows useDeg chrome travel tdte svg-icon myprofilemain myprofilemainform&quot;]/form[1]/table[1]/tbody[1]/tr[1]/td[@class=&quot;MainColumnBg&quot;]/table[1]/tbody[1]/tr[2]/td[1]/table[5]/tbody[1]/tr[1]/td[5]/table[1]/tbody[1]/tr[2]/td[1]/a[@class=&quot;ActionLink&quot;]</value>
+      <value>id(&quot;hdr_nav&quot;)/nav[1]/ul[1]/li[@class=&quot;displayMenu&quot;]/a[1]</value>
    </webElementProperties>
 </WebElementEntity>

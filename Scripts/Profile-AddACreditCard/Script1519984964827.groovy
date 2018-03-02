@@ -18,14 +18,35 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
+
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Page_ABB Group/a_My Profile'))
 
 WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/a_credit cards'))
+
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/font_Add a credit card'))
+
+WebUI.selectOptionByValue(findTestObject('select_Select a credit card'), 'VI', true)
+
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/input_T_Number'), '4012888888881881')
+
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/font_expiry date'))
+
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/input_T_Expiry_Date'), '10/22')
+
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/input_T_Desc'), 'owd')
+
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/input_T_First_Name'), 'Lukasz')
+
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/input_T_Last_Name'), 'Skrzypek')
+
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/a_Save'))
+
+WebUI.closeBrowser()
 
