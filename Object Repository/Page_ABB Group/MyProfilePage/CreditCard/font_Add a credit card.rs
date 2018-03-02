@@ -4,10 +4,18 @@
    <name>font_Add a credit card</name>
    <tag></tag>
    <elementGuidId>98c11378-7a35-45fa-a013-7b9631bdb3c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Add a credit card
+                                                    ' or . = 'Add a credit card
+                                                    ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

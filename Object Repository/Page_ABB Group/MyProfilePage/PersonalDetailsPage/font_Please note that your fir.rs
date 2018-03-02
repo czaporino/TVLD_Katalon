@@ -4,10 +4,20 @@
    <name>font_Please note that your fir</name>
    <tag></tag>
    <elementGuidId>b8a406b6-6fb1-4c8a-ba80-185f95403f2d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '
+                                                                Please note that your first name and your last name in your profile should match exactly your first name and your last name on the government issued ID that you plan to use for travelling
+                                                            ' or . = '
+                                                                Please note that your first name and your last name in your profile should match exactly your first name and your last name on the government issued ID that you plan to use for travelling
+                                                            ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
