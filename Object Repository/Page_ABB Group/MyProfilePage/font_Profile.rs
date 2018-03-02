@@ -8,9 +8,9 @@
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Profile
-                                        - Robert Czapor
+                                        - Maria Smith
                                     ' or . = 'Profile
-                                        - Robert Czapor
+                                        - Maria Smith
                                     ')]</value>
       </entry>
    </selectorCollection>
@@ -29,7 +29,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Profile
-                                        - Robert Czapor
+                                        - Maria Smith
                                     </value>
    </webElementProperties>
 </WebElementEntity>

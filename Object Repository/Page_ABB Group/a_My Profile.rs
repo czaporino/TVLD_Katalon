@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;hdr_nav&quot;)/nav[1]/ul[1]/li[5]/a</value>
+         <value>//*[@id=&quot;hdr_nav&quot;]/nav/ul/li[9]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,6 +38,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;hdr_nav&quot;)/nav[1]/ul[1]/li[5]/a</value>
+      <value>//*[@id=&quot;hdr_nav&quot;]/nav/ul/li[9]/a</value>
    </webElementProperties>
 </WebElementEntity>
