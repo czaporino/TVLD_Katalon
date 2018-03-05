@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img</name>
+   <name>DeleteAddress_b</name>
    <tag></tag>
    <elementGuidId>b5496702-2470-4f5d-92de-e7f25065a6a5</elementGuidId>
    <selectorCollection>

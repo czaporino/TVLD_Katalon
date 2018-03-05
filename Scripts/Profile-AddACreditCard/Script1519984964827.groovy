@@ -30,7 +30,7 @@ WebUI.waitForPageLoad(1)
 
 WebUI.click(findTestObject('Page_ABB Group/MyProfile'))
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/a_credit cards'))
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/CreditCardsLink'))
 
 WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/font_Add a credit card'))
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>b_ID information has been upda</name>
+   <name>InformationUpdatedMessage</name>
    <tag></tag>
    <elementGuidId>629faddb-104f-489d-9cdb-23eb2dd53ad8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

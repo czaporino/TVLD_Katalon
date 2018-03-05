@@ -32,42 +32,42 @@ WebUI.click(findTestObject('Page_ABB Group/MyProfile'))
 
 WebUI.waitForPageLoad(2)
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/a_personal details'))
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetails'))
 
 WebUI.waitForPageLoad(1)
 
 WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/font_Personal details'), 1)
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/a_Update'))
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/Update'))
 
 WebUI.waitForPageLoad(1)
 
 WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/font_Please note that your fir'), 
     1)
 
-WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailEdit/input_T_Middle_Name'), 
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/input_T_Middle_Name'), 
     'Lukasz')
 
-WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailEdit/input_T_Birth_Date_Visible'), 
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/input_T_Birth_Date_Visible'), 
     '01/01/1999')
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailEdit/a_Save changes'))
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/a_Save changes'))
 
-WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/b_ID information has been upda'), 1)
+WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/Messages/InformationUpdatedMessage'), 1)
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/a_Update'))
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/Update'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailEdit/input_T_Middle_Name'), 
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/input_T_Middle_Name'), 
     '')
 
-WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailEdit/input_T_Birth_Date_Visible'), 
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/input_T_Birth_Date_Visible'), 
     '')
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailEdit/a_Save changes'))
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/a_Save changes'))
 
-WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/b_ID information has been upda'), 1)
+WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/Messages/InformationUpdatedMessage'), 1)
 
 WebUI.closeBrowser()
 

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_personal details</name>
+   <name>AddressDetails_h_verify</name>
    <tag></tag>
-   <elementGuidId>110b25cb-6614-4894-a9ce-adf54005f4f8</elementGuidId>
+   <elementGuidId>1965f28f-d81a-4c29-b935-99674b65e77d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[5]/tbody/tr/td[1]/table[1]/tbody/tr[2]/td/a</value>
+         <value>/html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[3]/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr/td/table[9]/tbody/tr/td/table/tbody/tr[2]/td[2]/font</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,34 +20,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>MyProfilePersonal.jsp?Rd=0.38940385782054887&amp;X=20433</value>
+      <value>font</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ActionLink</value>
+      <value>ContentText</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>personal details</value>
+      <value>Address Name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[5]/tbody/tr/td[1]/table[1]/tbody/tr[2]/td/a</value>
+      <value>/html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[3]/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr/td/table[9]/tbody/tr/td/table/tbody/tr[2]/td[2]/font</value>
    </webElementProperties>
 </WebElementEntity>
