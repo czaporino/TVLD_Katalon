@@ -7,9 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Add a credit card
-                                                    ' or . = 'Add a credit card
-                                                    ')]</value>
+         <value>/html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr/td/table[5]/tbody/tr/td/a/font</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +27,7 @@
       <value>PrimaryButtonText2Level</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -37,10 +35,10 @@
                                                     </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;DocumentBg withJs en-US windows useDeg chrome travel tdte svg-icon myprofilecreditcard&quot;]/form[1]/table[1]/tbody[1]/tr[1]/td[@class=&quot;MainColumnBg&quot;]/table[1]/tbody[1]/tr[2]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[@class=&quot;MainBlockBorder&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;MainBlockBg&quot;]/table[5]/tbody[1]/tr[1]/td[1]/a[1]/font[@class=&quot;PrimaryButtonText2Level&quot;]</value>
+      <value>/html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr/td/table[5]/tbody/tr/td/a/font</value>
    </webElementProperties>
 </WebElementEntity>

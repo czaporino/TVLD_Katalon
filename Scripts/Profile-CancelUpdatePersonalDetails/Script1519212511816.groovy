@@ -30,8 +30,6 @@ WebUI.click(findTestObject('Page_ABB Group/a_My Profile'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/font_Profile'), 2)
-
 WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/a_personal details'))
 
 WebUI.waitForPageLoad(1)

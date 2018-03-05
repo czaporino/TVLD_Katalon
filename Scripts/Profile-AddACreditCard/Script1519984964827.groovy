@@ -22,9 +22,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
-
 WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
 
 WebUI.click(findTestObject('Page_ABB Group/a_My Profile'))
 
@@ -47,6 +47,16 @@ WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/input_T_Fi
 WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/input_T_Last_Name'), 'Skrzypek')
 
 WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/a_Save'))
+
+WebUI.verifyTextPresent('A new credit card has been added to your profile', false)
+
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/deleteCard'))
+
+WebUI.waitForAlert(0)
+
+WebUI.acceptAlert(FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextPresent('Credit card information has been deleted', false)
 
 WebUI.closeBrowser()
 

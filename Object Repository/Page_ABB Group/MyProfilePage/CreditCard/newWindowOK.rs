@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>newWindowOK</name>
+   <tag></tag>
+   <elementGuidId>73a75e98-f94e-4273-9f39-bf6510d9fd43</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Text</name>
+      <type>Main</type>
+      <value>OK</value>
+   </webElementProperties>
+</WebElementEntity>
