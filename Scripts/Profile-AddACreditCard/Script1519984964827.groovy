@@ -26,13 +26,15 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
 
-WebUI.click(findTestObject('Page_ABB Group/a_My Profile'))
+WebUI.waitForPageLoad(1)
+
+WebUI.click(findTestObject('Page_ABB Group/MyProfile'))
 
 WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/a_credit cards'))
 
 WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/font_Add a credit card'))
 
-WebUI.selectOptionByValue(findTestObject('select_Select a credit card'), 'VI', true)
+WebUI.selectOptionByValue(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/select_Select a credit card'), 'VI', true)
 
 WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/input_T_Number'), '4012888888881881')
 

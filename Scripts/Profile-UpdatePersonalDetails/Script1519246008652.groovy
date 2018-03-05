@@ -26,11 +26,13 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
 
-WebUI.click(findTestObject('Page_ABB Group/a_My Profile'))
+WebUI.waitForPageLoad(1)
+
+WebUI.click(findTestObject('Page_ABB Group/MyProfile'))
 
 WebUI.waitForPageLoad(2)
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/a_personal details'))
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/a_personal details'))
 
 WebUI.waitForPageLoad(1)
 

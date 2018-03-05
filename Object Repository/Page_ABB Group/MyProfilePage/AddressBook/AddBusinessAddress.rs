@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>font_Add a business address</name>
+   <name>AddBusinessAddress</name>
    <tag></tag>
    <elementGuidId>ceff18cf-4586-4dfc-a08f-9d75ee9e50f3</elementGuidId>
    <selectorCollection>

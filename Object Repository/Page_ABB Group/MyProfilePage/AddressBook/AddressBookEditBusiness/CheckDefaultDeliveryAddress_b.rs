@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_T_Address_Name</name>
+   <name>CheckDefaultDeliveryAddress_b</name>
    <tag></tag>
-   <elementGuidId>def6d4ec-b945-4190-895e-be8f8785bf8a</elementGuidId>
+   <elementGuidId>3256b92b-6cd1-4528-8228-88dbe90afe8f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[3]/tbody/tr/td/table/tbody/tr[1]/td/table[2]/tbody/tr[1]/td[2]/input</value>
+         <value>/html[1]/body[@class=&quot;DocumentBg withJs en-US windows useDeg chrome travel tdte svg-icon editaddress managementform editaddressprocess&quot;]/form[1]/table[1]/tbody[1]/tr[1]/td[@class=&quot;MainColumnBg&quot;]/table[1]/tbody[1]/tr[2]/td[1]/table[3]/tbody[1]/tr[1]/td[@class=&quot;MainBlockBorder&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;MainBlockBg&quot;]/table[2]/tbody[1]/tr[8]/td[1]/input[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,41 +24,27 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>checkbox</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>T_Address_Name</value>
+      <value>CB_Default</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>size</name>
+      <name>value</name>
       <type>Main</type>
-      <value>30</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>ContentText</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>50</value>
+      <value>Y</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[3]/tbody/tr/td/table/tbody/tr[1]/td/table[2]/tbody/tr[1]/td[2]/input</value>
+      <value>html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[3]/tbody/tr/td/table/tbody/tr[1]/td/table[2]/tbody/tr[8]/td/input</value>
    </webElementProperties>
 </WebElementEntity>

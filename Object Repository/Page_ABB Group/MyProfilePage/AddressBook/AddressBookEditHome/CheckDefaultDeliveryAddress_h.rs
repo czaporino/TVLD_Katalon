@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_CB_Default</name>
+   <name>CheckDefaultDeliveryAddress_h</name>
    <tag></tag>
-   <elementGuidId>3256b92b-6cd1-4528-8228-88dbe90afe8f</elementGuidId>
+   <elementGuidId>0565d291-fdf9-41d9-88d1-5b8e694d49d4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

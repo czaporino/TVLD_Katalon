@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Profile-CancelUpdatePersonalDetails</name>
-   <tag>profile</tag>
-   <comment></comment>
-   <testCaseGuid>a6e8d1fe-e1ef-428f-a35f-9c89f9b588c5</testCaseGuid>
-</TestCaseEntity>

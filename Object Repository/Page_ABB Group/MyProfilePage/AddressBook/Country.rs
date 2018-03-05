@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>font_Country</name>
+   <name>Country</name>
    <tag></tag>
    <elementGuidId>9d77eee2-34e1-4b03-92d6-74255df42fa1</elementGuidId>
    <selectorCollection>

@@ -26,7 +26,9 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
 
-WebUI.click(findTestObject('Page_ABB Group/a_My Profile'))
+WebUI.waitForPageLoad(1)
+
+WebUI.click(findTestObject('Page_ABB Group/MyProfile'))
 
 WebUI.waitForPageLoad(1)
 
@@ -37,36 +39,53 @@ WebUI.waitForPageLoad(1)
 WebUI.verifyTextPresent('This page enables you to update your address book. By default, you should use company delivery addresses, setup by your administrator.', 
     true)
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/font_Add a business address'))
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddBusinessAddress'))
 
-WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEdit/input_T_Address_Name'), 'Abb address')
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEditBusiness/AddressName_b'), 'Abb address')
 
-WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEdit/input_T_Street_Name'), 'Przy Rondzie')
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEditBusiness/StreetName_b'), 'Przy Rondzie')
 
-WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEdit/input_T_City_Name'), 'Krakow')
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEditBusiness/City_b'), 'Krakow')
 
-WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEdit/input_T_Postal_Code'), '10-001')
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEditBusiness/PostalCode_b'), '10-001')
 
-WebUI.selectOptionByValue(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEdit/select_select a country'), 
+WebUI.selectOptionByValue(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEditBusiness/Country_b'), 
     'PL', true)
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEdit/input_CB_Default'))
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEditBusiness/CheckDefaultDeliveryAddress_b'))
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEdit/a_Save'))
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEditBusiness/Save_b'))
 
-WebUI.verifyElementText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/a_AddressName'), 'Abb address')
+WebUI.verifyElementText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressName'), 'Abb address')
 
-WebUI.verifyElementText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/font_AddressDetails'), 'Przy Rondzie')
+WebUI.verifyElementText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressDetails'), 'Przy Rondzie')
 
-WebUI.verifyElementText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/font_City'), 'Krakow (10001)')
+WebUI.verifyElementText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/City'), 'Krakow (10001)')
 
-WebUI.verifyElementText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/font_Country'), 'Poland')
+WebUI.verifyElementText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/Country'), 'Poland')
 
 WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/img'))
 
 WebUI.waitForAlert(1)
 
 WebUI.acceptAlert()
+
+WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddHomeAddress'))
+
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEditHome/AddressName_h'), 'Krakow Dom')
+
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEditHome/Building_h'), '&*($')
+
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEditHome/StreetAddress_h'), 'Basztowa 15/25')
+
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEditHome/City_h'), 'Kraków')
+
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEditHome/StateRegion_h'), 'małopolskie')
+
+WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEditHome/PostalCode_h'), '32261')
+
+WebUI.selectOptionByValue(findTestObject('Page_ABB Group/MyProfilePage/AddressBook/AddressBookEditHome/Country_h'), 'PL', 
+    true)
 
 WebUI.closeBrowser()
 
