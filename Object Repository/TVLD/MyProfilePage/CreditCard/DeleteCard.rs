@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>deleteCard</name>
+   <name>DeleteCard</name>
    <tag></tag>
    <elementGuidId>a60c1d09-a198-4c4c-96c8-028ec620bdb5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -28,37 +28,35 @@ WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
 
 WebUI.waitForPageLoad(1)
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfile'))
+WebUI.click(findTestObject('TVLD/MyProfile'))
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/CreditCardsLink'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/CreditCardsLink'))
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/font_Add a credit card'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/CreditCard/AddCreditCard'))
 
-WebUI.selectOptionByValue(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/select_Select a credit card'), 'VI', true)
+WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/CreditCard/TypeOfCreditCard'), 'VI', true)
 
-WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/input_T_Number'), '4012888888881881')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/CreditCard/CardNumber'), '4012888888881881')
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/font_expiry date'))
+WebUI.setText(findTestObject('TVLD/MyProfilePage/CreditCard/ExpiryDate'), '10/22')
 
-WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/input_T_Expiry_Date'), '10/22')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/CreditCard/CardDescription'), 'owd')
 
-WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/input_T_Desc'), 'owd')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/CreditCard/FirstName'), 'Lukasz')
 
-WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/input_T_First_Name'), 'Lukasz')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/CreditCard/LastName'), 'Skrzypek')
 
-WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/input_T_Last_Name'), 'Skrzypek')
+WebUI.click(findTestObject('TVLD/MyProfilePage/CreditCard/Save'))
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/a_Save'))
+WebUI.verifyTextPresent('A new credit card has been added to your profile', true)
 
-WebUI.verifyTextPresent('A new credit card has been added to your profile', false)
-
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/CreditCard/deleteCard'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/CreditCard/DeleteCard'))
 
 WebUI.waitForAlert(0)
 
 WebUI.acceptAlert(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyTextPresent('Credit card information has been deleted', false)
+WebUI.verifyTextPresent('Credit card information has been deleted', true)
 
 WebUI.closeBrowser()
 

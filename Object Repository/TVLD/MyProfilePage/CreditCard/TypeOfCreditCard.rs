@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Select a credit card</name>
+   <name>TypeOfCreditCard</name>
    <tag></tag>
    <elementGuidId>fc03d73a-0dc0-401f-b917-b1e67ceb5764</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

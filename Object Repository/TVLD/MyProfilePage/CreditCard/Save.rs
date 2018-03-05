@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CheckDefaultDeliveryAddress_h</name>
+   <name>Save</name>
    <tag></tag>
-   <elementGuidId>0565d291-fdf9-41d9-88d1-5b8e694d49d4</elementGuidId>
+   <elementGuidId>6eecab0a-db56-4d1b-8c71-a7020b78df56</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[@class=&quot;DocumentBg withJs en-US windows useDeg chrome travel tdte svg-icon editaddress managementform editaddressprocess&quot;]/form[1]/table[1]/tbody[1]/tr[1]/td[@class=&quot;MainColumnBg&quot;]/table[1]/tbody[1]/tr[2]/td[1]/table[3]/tbody[1]/tr[1]/td[@class=&quot;MainBlockBorder&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;MainBlockBg&quot;]/table[2]/tbody[1]/tr[8]/td[1]/input[1]</value>
+         <value>//*[(text() = 'Save
+                        ' or . = 'Save
+                        ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,34 +19,35 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>checkbox</value>
+      <value>javascript:Submit()</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>class</name>
       <type>Main</type>
-      <value>CB_Default</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Y</value>
+      <value>PrimaryButtonText</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save
+                        </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[3]/tbody/tr/td/table/tbody/tr[1]/td/table[2]/tbody/tr[8]/td/input</value>
+      <value>/html[1]/body[@class=&quot;DocumentBg withJs en-US windows useDeg chrome travel tdte svg-icon editcreditcard managementform editcreditcardprocess&quot;]/form[1]/table[1]/tbody[1]/tr[1]/td[@class=&quot;MainColumnBg&quot;]/table[1]/tbody[1]/tr[2]/td[1]/table[3]/tbody[1]/tr[1]/td[@class=&quot;MainBlockBorder&quot;]/table[1]/tbody[1]/tr[2]/td[@class=&quot;MainBlockBg&quot;]/table[@class=&quot;PrimaryButtonBg&quot;]/tbody[1]/tr[1]/td[1]/a[@class=&quot;PrimaryButtonText&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -28,46 +28,46 @@ WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
 
 WebUI.waitForPageLoad(1)
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfile'))
+WebUI.click(findTestObject('TVLD/MyProfile'))
 
 WebUI.waitForPageLoad(2)
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetails'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/PersonalDetails'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/font_Personal details'), 1)
+WebUI.verifyElementPresent(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/font_Personal details'), 1)
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/Update'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/Update'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/font_Please note that your fir'), 
+WebUI.verifyElementPresent(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/font_Please note that your fir'), 
     1)
 
-WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/input_T_Middle_Name'), 
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/input_T_Middle_Name'), 
     'Lukasz')
 
-WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/input_T_Birth_Date_Visible'), 
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/input_T_Birth_Date_Visible'), 
     '01/01/1999')
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/a_Save changes'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/a_Save changes'))
 
-WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/Messages/InformationUpdatedMessage'), 1)
+WebUI.verifyElementPresent(findTestObject('TVLD/MyProfilePage/Messages/InformationUpdatedMessage'), 1)
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/Update'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/Update'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/input_T_Middle_Name'), 
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/input_T_Middle_Name'), 
     '')
 
-WebUI.setText(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/input_T_Birth_Date_Visible'), 
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/input_T_Birth_Date_Visible'), 
     '')
 
-WebUI.click(findTestObject('Page_ABB Group/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/a_Save changes'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/a_Save changes'))
 
-WebUI.verifyElementPresent(findTestObject('Page_ABB Group/MyProfilePage/Messages/InformationUpdatedMessage'), 1)
+WebUI.verifyElementPresent(findTestObject('TVLD/MyProfilePage/Messages/InformationUpdatedMessage'), 1)
 
 WebUI.closeBrowser()
 

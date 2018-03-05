@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>font_Add a credit card</name>
+   <name>AddCreditCard</name>
    <tag></tag>
    <elementGuidId>7e697661-712f-4e38-998d-2a97b683c88d</elementGuidId>
    <selectorCollection>
