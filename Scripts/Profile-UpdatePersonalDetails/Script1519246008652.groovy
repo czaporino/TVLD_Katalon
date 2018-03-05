@@ -46,7 +46,7 @@ WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePerso
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/SaveChanges'))
 
-WebUI.verifyElementPresent(findTestObject('TVLD/MyProfilePage/_Messages/InformationUpdatedMessage'), 1)
+WebUI.verifyElementPresent(findTestObject('TVLD/MyProfilePage/_MessagesConfirm/InformationUpdatedMessage'), 1)
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetails'))
 
@@ -58,7 +58,7 @@ WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePerso
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/SaveChanges'))
 
-WebUI.verifyElementPresent(findTestObject('TVLD/MyProfilePage/_Messages/InformationUpdatedMessage'), 1)
+WebUI.verifyElementPresent(findTestObject('TVLD/MyProfilePage/_MessagesConfirm/InformationUpdatedMessage'), 1)
 
 WebUI.closeBrowser()
 
