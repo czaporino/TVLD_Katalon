@@ -32,42 +32,33 @@ WebUI.click(findTestObject('TVLD/MyProfile'))
 
 WebUI.waitForPageLoad(2)
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/PersonalDetails'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsLink'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.verifyElementPresent(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/font_Personal details'), 1)
-
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/Update'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetails'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.verifyElementPresent(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/font_Please note that your fir'), 
-    1)
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/MiddleName'), 'Lukasz')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/input_T_Middle_Name'), 
-    'Lukasz')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/DateOfBirth'), '01/01/1999')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/input_T_Birth_Date_Visible'), 
-    '01/01/1999')
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/SaveChanges'))
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/a_Save changes'))
+WebUI.verifyElementPresent(findTestObject('TVLD/MyProfilePage/_Messages/InformationUpdatedMessage'), 1)
 
-WebUI.verifyElementPresent(findTestObject('TVLD/MyProfilePage/Messages/InformationUpdatedMessage'), 1)
-
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/Update'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetails'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/input_T_Middle_Name'), 
-    '')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/MiddleName'), '')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/input_T_Birth_Date_Visible'), 
-    '')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/DateOfBirth'), '')
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/PersonalDetailsEdit/a_Save changes'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/SaveChanges'))
 
-WebUI.verifyElementPresent(findTestObject('TVLD/MyProfilePage/Messages/InformationUpdatedMessage'), 1)
+WebUI.verifyElementPresent(findTestObject('TVLD/MyProfilePage/_Messages/InformationUpdatedMessage'), 1)
 
 WebUI.closeBrowser()
 

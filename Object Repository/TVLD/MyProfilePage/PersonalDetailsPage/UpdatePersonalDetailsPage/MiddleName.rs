@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_T_Middle_Name</name>
+   <name>MiddleName</name>
    <tag></tag>
    <elementGuidId>71b18faf-80a0-424e-94af-5d80cde0b021</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

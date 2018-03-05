@@ -32,25 +32,25 @@ WebUI.click(findTestObject('TVLD/MyProfile'))
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/CreditCardsLink'))
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/CreditCard/AddCreditCard'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/CreditCardsPage/AddCreditCard'))
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/CreditCard/TypeOfCreditCard'), 'VI', true)
+WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/CreditCardsPage/TypeOfCreditCard'), 'VI', true)
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/CreditCard/CardNumber'), '4012888888881881')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/CreditCardsPage/CardNumber'), '4012888888881881')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/CreditCard/ExpiryDate'), '10/22')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/CreditCardsPage/ExpiryDate'), '10/22')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/CreditCard/CardDescription'), 'owd')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/CreditCardsPage/CardDescription'), 'owd')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/CreditCard/FirstName'), 'Lukasz')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/CreditCardsPage/FirstName'), 'Lukasz')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/CreditCard/LastName'), 'Skrzypek')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/CreditCardsPage/LastName'), 'Skrzypek')
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/CreditCard/Save'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/CreditCardsPage/Save'))
 
 WebUI.verifyTextPresent('A new credit card has been added to your profile', true)
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/CreditCard/DeleteCard'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/CreditCardsPage/DeleteCard'))
 
 WebUI.waitForAlert(0)
 

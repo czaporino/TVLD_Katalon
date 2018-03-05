@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Update</name>
+   <name>AddTravelDocument</name>
    <tag></tag>
-   <elementGuidId>95dcb95d-4c2d-4ded-9b1a-0a52c03172bd</elementGuidId>
+   <elementGuidId>dc3962d1-322f-4f3c-b821-1e1759704c5b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr/td/table[3]/tbody/tr/td/a</value>
+         <value>.//*[@id='TD']/table[6]/tbody/tr/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -46,6 +46,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr/td/table[3]/tbody/tr/td/a</value>
+      <value>.//*[@id='TD']/table[6]/tbody/tr/td/a</value>
    </webElementProperties>
 </WebElementEntity>

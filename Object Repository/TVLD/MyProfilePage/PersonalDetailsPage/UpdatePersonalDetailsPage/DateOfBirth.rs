@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_T_Birth_Date_Visible</name>
+   <name>DateOfBirth</name>
    <tag></tag>
    <elementGuidId>ed740d0d-0171-45ae-a523-777fa302f4ba</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

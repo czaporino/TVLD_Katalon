@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PersonalDetails</name>
+   <name>UpdateEmergencyContact</name>
    <tag></tag>
-   <elementGuidId>110b25cb-6614-4894-a9ce-adf54005f4f8</elementGuidId>
+   <elementGuidId>0de6bef4-0fdd-43b5-84be-2d801f09ef4b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[5]/tbody/tr/td[1]/table[1]/tbody/tr[2]/td/a</value>
+         <value>html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr/td/table[11]/tbody/tr/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,27 +24,28 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>MyProfilePersonal.jsp?Rd=0.38940385782054887&amp;X=20433</value>
+      <value>EditIdentity.jsp?Rd=0.8222096141185786&amp;X=20433</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ActionLink</value>
+      <value>PrimaryButtonText2Level</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>personal details</value>
+      <value>Update
+            </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[5]/tbody/tr/td[1]/table[1]/tbody/tr[2]/td/a</value>
+      <value>html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr/td/table[11]/tbody/tr/td/a</value>
    </webElementProperties>
 </WebElementEntity>
