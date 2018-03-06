@@ -36,7 +36,7 @@ WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookLink'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddBusinessAddress'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/AddBusinessAddress'))
 
 WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/AddressNameBusiness'), 'Abb address')
 
@@ -69,7 +69,7 @@ WebUI.waitForAlert(1)
 
 WebUI.acceptAlert()
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddHomeAddress'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/AddHomeAddress'))
 
 WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/AddressNameHome'), 'Krakow Dom')
 

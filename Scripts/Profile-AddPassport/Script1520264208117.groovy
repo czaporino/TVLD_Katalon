@@ -35,7 +35,7 @@ WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddPassport')
 
 WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/Country'), 'PL', true)
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/Number'), '5532556346')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/Number'), '123890')
 
 WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/ExpiryDate'), '10/07/2009')
 
@@ -48,7 +48,7 @@ WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergen
 
 WebUI.verifyTextPresent('A new passport has been added to your profile', true)
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Passport/PassportNumberVerify'), '5532556346')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Passport/PassportNumberVerify'), '123890')
 
 WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Passport/PassportCountryVerify'), 'Poland')
 
