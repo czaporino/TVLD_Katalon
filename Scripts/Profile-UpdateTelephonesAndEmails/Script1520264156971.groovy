@@ -19,3 +19,59 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
+
+WebUI.waitForPageLoad(1)
+
+WebUI.click(findTestObject('TVLD/MyProfile'))
+
+WebUI.click(findTestObject('TVLD/MyProfilePage/TelephoneNumbersLink'))
+
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmail'))
+
+WebUI.click(findTestObject('TVLD/MyProfile'))
+
+WebUI.click(findTestObject('TVLD/MyProfilePage/EmailLink'))
+
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmail'))
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/BusinessPhone'), '0048-555666777')
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/HomePhone'), '0012-657421345')
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/MobilePhone'), '0048-111222333')
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/PrimaryEmailAddress'), 
+    '1234@pl.x.com')
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/SecondaryEmailAddress'), 
+    '345@pl.x.com')
+
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/SaveChanges'))
+
+WebUI.verifyTextPresent('Telephone numbers and email have been updated', true)
+
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmail'))
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/BusinessPhone'), '0048-111111111')
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/HomePhone'), '')
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/MobilePhone'), '')
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/PrimaryEmailAddress'), 
+    'qwerty@pl.x.com')
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/SecondaryEmailAddress'), 
+    '')
+
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/SaveChanges'))
+
+WebUI.verifyTextPresent('Telephone numbers and email have been updated', true)
+
+WebUI.closeBrowser()
+
