@@ -19,3 +19,48 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
+
+WebUI.waitForPageLoad(1)
+
+WebUI.click(findTestObject('TVLD/MyProfile'))
+
+WebUI.click(findTestObject('TVLD/MyProfilePage/PassportLink'))
+
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddPassport'))
+
+WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/Country'), 'PL', true)
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/Number'), '5532556346')
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/ExpiryDate'), '10/07/2009')
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/CityPlaceOfIssue'), 'Kraków')
+
+WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/CoutryPlaceOfIssue'), 'PL', 
+    true)
+
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/SaveChanges'))
+
+WebUI.verifyTextPresent('A new passport has been added to your profile', true)
+
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Passport/PassportNumber'), '5532556346')
+
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Passport/Country'), 'Poland')
+
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Passport/ExpiryDate'), '10/07/2009')
+
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/DeletePassport'))
+
+WebUI.waitForAlert(0)
+
+WebUI.acceptAlert()
+
+WebUI.verifyTextPresent('Passport information has been deleted.', true)
+
+WebUI.closeBrowser()
+
