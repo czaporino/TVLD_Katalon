@@ -55,13 +55,13 @@ WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelepho
 
 WebUI.verifyTextPresent('Telephone numbers and email have been updated', true)
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/TelephoneAndEmail/BusinessPhoneVerify'), '0048-555666777')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/TelephoneAndEmail/BusinessPhoneVerify'), '0048-555666777')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/TelephoneAndEmail/HomePhoneVerify'), '0012-657421345')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/TelephoneAndEmail/HomePhoneVerify'), '0012-657421345')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/TelephoneAndEmail/MobilePhoneVerify'), '0048-111222333')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/TelephoneAndEmail/MobilePhoneVerify'), '0048-111222333')
 
-not_run: WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/TelephoneAndEmail/EmailVerify'), '1234@Pl.X.Com , 345@Pl.X.Com')
+not_run: WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/TelephoneAndEmail/EmailVerify'), '1234@Pl.X.Com , 345@Pl.X.Com')
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmail'))
 
@@ -81,11 +81,11 @@ WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelepho
 
 WebUI.verifyTextPresent('Telephone numbers and email have been updated', true)
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/TelephoneAndEmail/BusinessPhoneVerify'), '0048-111111111')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/TelephoneAndEmail/BusinessPhoneVerify'), '0048-111111111')
 
-not_run: WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/TelephoneAndEmail/HomePhoneVerify'), '')
+not_run: WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/TelephoneAndEmail/HomePhoneVerify'), '')
 
-not_run: WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/TelephoneAndEmail/MobilePhoneVerify'), '')
+not_run: WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/TelephoneAndEmail/MobilePhoneVerify'), '')
 
 WebUI.closeBrowser()
 

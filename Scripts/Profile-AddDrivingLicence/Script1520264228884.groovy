@@ -49,13 +49,13 @@ WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergen
 
 WebUI.verifyTextPresent('A new driving licence has been added to your profile.', true)
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/DrivingLicence/DrivingLicenceNumberVerify'), '5532556346')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/DrivingLicence/DrivingLicenceNumberVerify'), '5532556346')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/DrivingLicence/DrivingLicenceCoutryVerify'), 'Poland')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/DrivingLicence/DrivingLicenceCoutryVerify'), 'Poland')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/DrivingLicence/DrivingLicenceDateOfIssueVerify'), '10/07/2009')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/DrivingLicence/DrivingLicenceDateOfIssueVerify'), '10/07/2009')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/DrivingLicence/DrivingLicencePlaceOfIssueVerify'), 'Kraków')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/DrivingLicence/DrivingLicencePlaceOfIssueVerify'), 'Kraków')
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/DeleteDrivingLicence'))
 

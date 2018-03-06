@@ -48,11 +48,11 @@ WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergen
 
 WebUI.verifyTextPresent('A new ID Card has been added to your profile.', true)
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/IDCard/IDNumberVerify'), '5532556346')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/IDCard/IDNumberVerify'), '5532556346')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/IDCard/IDCountryVerify'), 'Poland')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/IDCard/IDCountryVerify'), 'Poland')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/IDCard/IDExpiryDateVerify'), '10/07/2009')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/IDCard/IDExpiryDateVerify'), '10/07/2009')
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/DeleteIDCard'))
 

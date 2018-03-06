@@ -48,11 +48,11 @@ WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergen
 
 WebUI.verifyTextPresent('A new passport has been added to your profile', true)
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Passport/PassportNumberVerify'), '5532556346')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Passport/PassportNumberVerify'), '5532556346')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Passport/PassportCountryVerify'), 'Poland')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Passport/PassportCountryVerify'), 'Poland')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Passport/PassportExpiryDateVerify'), '10/07/2009')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Passport/PassportExpiryDateVerify'), '10/07/2009')
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/DeletePassport'))
 

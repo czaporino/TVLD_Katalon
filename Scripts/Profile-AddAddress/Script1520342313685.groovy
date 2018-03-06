@@ -55,13 +55,13 @@ WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBu
 
 WebUI.verifyTextPresent('A new address has been added to your address book', true)
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Address/AddressNameBusinessVerify'), 'Abb address')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Address/AddressNameBusinessVerify'), 'Abb address')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Address/AddressDetailsBusinessVerify'), 'Przy Rondzie')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Address/AddressDetailsBusinessVerify'), 'Przy Rondzie')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Address/CityBusinessVerify'), 'Krakow (10001)')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Address/CityBusinessVerify'), 'Krakow (10001)')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Address/CountryBusinessVerify'), 'Poland')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Address/CountryBusinessVerify'), 'Poland')
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/DeleteAddressBusiness'))
 
@@ -89,13 +89,13 @@ WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHo
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/SaveHome'))
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Address/AddressNameHomeverify'), 'Krakow Dom')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Address/AddressNameHomeverify'), 'Krakow Dom')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Address/AddressDetailsHomeVerify'), 'Basztowa 1525')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Address/AddressDetailsHomeVerify'), 'Basztowa 1525')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Address/CityHomeVerify'), 'Kraków (32261)')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Address/CityHomeVerify'), 'Kraków (32261)')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Address/CountryHomeVerify'), 'Poland')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Address/CountryHomeVerify'), 'Poland')
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/DeleteAddressHome'))
 

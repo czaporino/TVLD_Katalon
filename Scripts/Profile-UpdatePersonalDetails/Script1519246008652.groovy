@@ -65,15 +65,15 @@ WebUI.verifyTextPresent('ID information has been updated', true)
 
 WebUI.waitForPageLoad(1)
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/PersonalDetails/NameVerify'), 'Miss Anna Maria Nowak')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/PersonalDetails/NameVerify'), 'Miss Anna Maria Nowak')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/PersonalDetails/DateOfBirthVerify'), '01/01/1999')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/PersonalDetails/DateOfBirthVerify'), '01/01/1999')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/PersonalDetails/NationalityVerify'), 'Germany')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/PersonalDetails/NationalityVerify'), 'Germany')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/PersonalDetails/CoutryOfResidenceVerify'), 'Germany')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/PersonalDetails/CoutryOfResidenceVerify'), 'Germany')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/PersonalDetails/EmployeeIDVerify'), '1234567890')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/PersonalDetails/EmployeeIDVerify'), '1234567890')
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetails'))
 
