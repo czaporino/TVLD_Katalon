@@ -61,9 +61,19 @@ WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePerso
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/SaveChanges'))
 
-WebUI.verifyElementPresent(findTestObject('TVLD/MyProfilePage/_MessagesConfirm/InformationUpdatedMessage'), 1)
+WebUI.verifyTextPresent('ID information has been updated', true)
 
 WebUI.waitForPageLoad(1)
+
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/PersonalDetails/NameVerify'), 'Miss Anna Maria Nowak')
+
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/PersonalDetails/DateOfBirthVerify'), '01/01/1999')
+
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/PersonalDetails/NationalityVerify'), 'Germany')
+
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/PersonalDetails/CoutryOfResidenceVerify'), 'Germany')
+
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/PersonalDetails/EmployeeIDVerify'), '1234567890')
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetails'))
 
@@ -83,7 +93,9 @@ WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage
 
 WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/EmployeeID'), '987654321')
 
-WebUI.verifyElementPresent(findTestObject('TVLD/MyProfilePage/_MessagesConfirm/InformationUpdatedMessage'), 1)
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/SaveChanges'))
+
+WebUI.verifyTextPresent('ID information has been updated', true)
 
 WebUI.closeBrowser()
 
