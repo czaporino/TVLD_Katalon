@@ -40,23 +40,48 @@ WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersona
 
 WebUI.waitForPageLoad(1)
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/MiddleName'), 'Lukasz')
+WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/Title'), 'Melle', 
+    false)
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/FirstName'), 'Anna')
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/MiddleName'), 'Maria')
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/CreditCardsPage/LastName'), 'Nowak')
 
 WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/DateOfBirth'), '01/01/1999')
+
+WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/Nationality'), 
+    'DE', true)
+
+WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/CountryOfResidence'), 
+    'DE', true)
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/EmployeeID'), '1234567890')
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/SaveChanges'))
 
 WebUI.verifyElementPresent(findTestObject('TVLD/MyProfilePage/_MessagesConfirm/InformationUpdatedMessage'), 1)
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetails'))
-
 WebUI.waitForPageLoad(1)
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/MiddleName'), '')
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetails'))
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/DateOfBirth'), '')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/FirstName'), 'Lukasz')
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/SaveChanges'))
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/MiddleName'), 'Bartosz')
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/CreditCardsPage/LastName'), 'Skrzypek')
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/DateOfBirth'), '01/01/1995')
+
+WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/Nationality'), 
+    'PL', true)
+
+WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/CountryOfResidence'), 
+    'PL', true)
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/EmployeeID'), '987654321')
 
 WebUI.verifyElementPresent(findTestObject('TVLD/MyProfilePage/_MessagesConfirm/InformationUpdatedMessage'), 1)
 

@@ -4,6 +4,12 @@
    <name>DateOfBirth</name>
    <tag></tag>
    <elementGuidId>ed740d0d-0171-45ae-a523-777fa302f4ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @name = 'T_Birth_Date_Visible']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -60,6 +66,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;DocumentBg withJs en-US windows useDeg chrome travel tdte svg-icon editidentity managementform editidentityprocess&quot;]/form[1]/table[1]/tbody[1]/tr[1]/td[@class=&quot;MainColumnBg&quot;]/table[1]/tbody[1]/tr[2]/td[1]/table[3]/tbody[1]/tr[1]/td[@class=&quot;MainBlockBorder&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;MainBlockBg&quot;]/table[2]/tbody[1]/tr[5]/td[2]/input[@class=&quot;ContentText&quot;]</value>
+      <value>/html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[3]/tbody/tr/td/table/tbody/tr[1]/td[2]/table[2]/tbody/tr[5]/td[2]/input[1]</value>
    </webElementProperties>
 </WebElementEntity>
