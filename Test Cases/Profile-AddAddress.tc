@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Profile-AddAnAddress</name>
+   <name>Profile-AddAddress</name>
    <tag>profile</tag>
    <comment></comment>
    <testCaseGuid>2687de31-7189-45cb-8c02-f336d0f52a0e</testCaseGuid>

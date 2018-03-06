@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>AddDrivingLicence</name>
+   <name>DrivingLicenceLink</name>
    <tag></tag>
-   <elementGuidId>c0e57c7b-3f0f-4b47-8397-848457d85ea6</elementGuidId>
+   <elementGuidId>29a68c4e-e4c1-4bf9-aa95-c0f9b1fffc43</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;DL&quot;]/table[6]/tbody/tr/td/a</value>
+         <value>/html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[5]/tbody/tr/td[1]/table[1]/tbody/tr[7]/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,28 +24,27 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>EditIdentity.jsp?Rd=0.8222096141185786&amp;X=20433</value>
+      <value>MyProfilePersonal.jsp?Rd=0.38940385782054887&amp;X=20433</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>PrimaryButtonText2Level</value>
+      <value>ActionLink</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Update
-            </value>
+      <value>personal details</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;DL&quot;]/table[6]/tbody/tr/td/a</value>
+      <value>/html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[5]/tbody/tr/td[1]/table[1]/tbody/tr[7]/td/a</value>
    </webElementProperties>
 </WebElementEntity>

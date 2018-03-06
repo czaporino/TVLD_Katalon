@@ -29,41 +29,38 @@ WebUI.waitForPageLoad(1)
 
 WebUI.click(findTestObject('TVLD/MyProfile'))
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/DrivingLicenceLink'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/IDCardLink'))
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicence'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddIDCard'))
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/Country'), 'PL', 
+WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/Country'), 'PL', true)
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/Number'), '5532556346')
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/ExpiryDate'), '10/07/2009')
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/CityPlaceOfIssue'), 'Kraków')
+
+WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/CountryPlaceOfIssue'), 'PL', 
     true)
-
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/Number'), '5532556346')
-
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/DateOfIssue'), '10/07/2009')
-
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/CityPlaceOfIssue'), 'Kraków')
-
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/CountryPlaceOfIssue'), 
-    'PL', true)
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/SaveChanges'))
 
-WebUI.verifyTextPresent('A new driving licence has been added to your profile.', true)
+WebUI.verifyTextPresent('A new ID Card has been added to your profile.', true)
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/DrivingLicence/DrivingLicenceNumberVerify'), '5532556346')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/IDCard/IDNumberVerify'), '5532556346')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/DrivingLicence/DrivingLicenceCoutryVerify'), 'Poland')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/IDCard/IDCountryVerify'), 'Poland')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/DrivingLicence/DrivingLicenceDateOfIssueVerify'), '10/07/2009')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/IDCard/IDExpiryDateVerify'), '10/07/2009')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/DrivingLicence/DrivingLicencePlaceOfIssueVerify'), 'Kraków')
-
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/DeleteDrivingLicence'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/DeleteIDCard'))
 
 WebUI.waitForAlert(0)
 
 WebUI.acceptAlert()
 
-WebUI.verifyTextPresent('Driving licence information has been deleted.', true)
+WebUI.verifyTextPresent('ID Card information has been deleted.', true)
 
 WebUI.closeBrowser()
 

@@ -42,6 +42,31 @@ WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/SaveChanges'))
 
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/EmergencyContact/NameVerify'), '0048-555666777')
+
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/EmergencyContact/PhoneNumberVerify'), '0012-657421345')
+
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/EmergencyContact/CountryVerify'), 'Poland')
+
+WebUI.verifyTextPresent('Emergency contact has been updated', true)
+
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContact'))
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/FullName'), '0048-000000000')
+
+WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/PhoneNumber'), '0012-00000000')
+
+WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/Country'), 'DE', 
+    true)
+
+WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/SaveChanges'))
+
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/EmergencyContact/NameVerify'), '0048-000000000')
+
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/EmergencyContact/PhoneNumberVerify'), '0012-00000000')
+
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/EmergencyContact/CountryVerify'), 'Germany')
+
 WebUI.verifyTextPresent('Emergency contact has been updated', true)
 
 WebUI.closeBrowser()
