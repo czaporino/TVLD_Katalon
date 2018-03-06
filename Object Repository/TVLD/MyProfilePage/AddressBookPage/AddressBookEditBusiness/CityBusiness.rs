@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Country_h</name>
+   <name>CityBusiness</name>
    <tag></tag>
-   <elementGuidId>e7d1fc7c-1d81-4f47-b7bb-761f1c77f0b9</elementGuidId>
+   <elementGuidId>c4e40844-da0a-4795-abd7-d46d38f594ce</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[3]/tbody/tr/td/table/tbody/tr[1]/td/table[2]/tbody/tr[4]/td[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[3]/tbody/tr/td/table/tbody/tr[1]/td/table[2]/tbody/tr[7]/td[2]/font/select</value>
+      <value>html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[3]/tbody/tr/td/table/tbody/tr[1]/td/table[2]/tbody/tr[4]/td[2]/input</value>
    </webElementProperties>
 </WebElementEntity>

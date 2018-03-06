@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CheckDefaultDeliveryAddress_b</name>
+   <name>CheckDefaultDeliveryAddressBusiness</name>
    <tag></tag>
    <elementGuidId>3256b92b-6cd1-4528-8228-88dbe90afe8f</elementGuidId>
    <selectorCollection>

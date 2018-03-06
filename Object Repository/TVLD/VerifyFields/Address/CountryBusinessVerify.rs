@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>City_h_verify</name>
+   <name>CountryBusinessVerify</name>
    <tag></tag>
-   <elementGuidId>3958445e-c982-4250-8972-b9a6312f706c</elementGuidId>
+   <elementGuidId>9d77eee2-34e1-4b03-92d6-74255df42fa1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[3]/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr/td/table[9]/tbody/tr/td/table/tbody/tr[2]/td[3]/font</value>
+         <value>html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[3]/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr/td/table[3]/tbody/tr/td/table/tbody/tr[2]/td[4]/font</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,13 +31,13 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Krakow</value>
+      <value>Poland</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[3]/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr/td/table[9]/tbody/tr/td/table/tbody/tr[2]/td[3]/font</value>
+      <value>html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[3]/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr/td/table[3]/tbody/tr/td/table/tbody/tr[2]/td[4]/font</value>
    </webElementProperties>
 </WebElementEntity>

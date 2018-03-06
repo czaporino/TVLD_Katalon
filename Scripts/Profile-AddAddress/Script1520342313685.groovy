@@ -38,29 +38,32 @@ WebUI.waitForPageLoad(1)
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddBusinessAddress'))
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/AddressName_b'), 'Abb address')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/AddressNameBusiness'), 'Abb address')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/StreetName_b'), 'Przy Rondzie')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/StreetNameBusiness'), 'Przy Rondzie')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/City_b'), 'Krakow')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/CityBusiness'), 'Krakow')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/PostalCode_b'), '10-001')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/PostalCodeBusiness'), '10-001')
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/Country_b'), 'PL', true)
+WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/CountryBusiness'), 'PL', 
+    true)
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/CheckDefaultDeliveryAddress_b'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/CheckDefaultDeliveryAddressBusiness'))
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/Save_b'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/SaveBusiness'))
 
-WebUI.verifyElementText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressName_b_verify'), 'Abb address')
+WebUI.verifyTextPresent('A new address has been added to your address book', true)
 
-WebUI.verifyElementText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressDetails_b_verify'), 'Przy Rondzie')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Address/AddressNameBusinessVerify'), 'Abb address')
 
-WebUI.verifyElementText(findTestObject('TVLD/MyProfilePage/AddressBookPage/City_b_verify'), 'Krakow (10001)')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Address/AddressDetailsBusinessVerify'), 'Przy Rondzie')
 
-WebUI.verifyElementText(findTestObject('TVLD/MyProfilePage/AddressBookPage/Country_b_verify'), 'Poland')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Address/CityBusinessVerify'), 'Krakow (10001)')
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/DeleteAddress_b'))
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Address/CountryBusinessVerify'), 'Poland')
+
+WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/DeleteAddressBusiness'))
 
 WebUI.waitForAlert(1)
 
@@ -68,37 +71,39 @@ WebUI.acceptAlert()
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddHomeAddress'))
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/AddressName_h'), 'Krakow Dom')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/AddressNameHome'), 'Krakow Dom')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/Building_h'), '&*($')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/BuildingHome'), '&*($')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/StreetAddress_h'), 'Basztowa 15/25')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/StreetAddressHome'), 'Basztowa 15/25')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/City_h'), 'Kraków')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/CityHome'), 'Kraków')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/StateRegion_h'), 'małopolskie')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/StateRegionHome'), 'małopolskie')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/PostalCode_h'), '32261')
+WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/PostalCodeHome'), '32261')
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/Country_h'), 'PL', true)
+WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/CountryHome'), 'PL', true)
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/Save_h'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/CheckDefaultDeliveryAddressHome'))
 
-WebUI.verifyElementText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressName_h_verify'), 'Krakow Dom')
+WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/SaveHome'))
 
-WebUI.verifyElementText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressDetails_h_verify'), 'Basztowa 1525')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Address/AddressNameHomeverify'), 'Krakow Dom')
 
-WebUI.verifyElementText(findTestObject('TVLD/MyProfilePage/AddressBookPage/City_h_verify'), 'Kraków (32261)')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Address/AddressDetailsHomeVerify'), 'Basztowa 1525')
 
-WebUI.verifyElementText(findTestObject('TVLD/MyProfilePage/AddressBookPage/Country_h_verify'), 'Poland')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Address/CityHomeVerify'), 'Kraków (32261)')
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/CheckDefaultDeliveryAddress_h'))
+WebUI.verifyElementText(findTestObject('TVLD/VerifyFields/Address/CountryHomeVerify'), 'Poland')
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/DeleteAddress_h'))
+WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/DeleteAddressHome'))
 
 WebUI.waitForAlert(1)
 
 WebUI.acceptAlert()
+
+WebUI.verifyTextPresent('The address has been removed from your address book', true)
 
 WebUI.closeBrowser()
 

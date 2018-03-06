@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>AddressName_h</name>
+   <name>AddressNameHome</name>
    <tag></tag>
    <elementGuidId>09733343-8189-4477-88d0-3ea7b77bb728</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

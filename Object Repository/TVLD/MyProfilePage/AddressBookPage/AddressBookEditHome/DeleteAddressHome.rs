@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>DeleteAddress_h</name>
+   <name>DeleteAddressHome</name>
    <tag></tag>
    <elementGuidId>778ee604-bbc4-4516-bc28-387a2cddc795</elementGuidId>
    <selectorCollection>

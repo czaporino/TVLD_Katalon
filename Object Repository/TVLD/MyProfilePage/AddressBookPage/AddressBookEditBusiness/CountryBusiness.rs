@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Country_b</name>
+   <name>CountryBusiness</name>
    <tag></tag>
    <elementGuidId>5723e6d9-446d-4883-96db-7b11402fe653</elementGuidId>
    <selectorCollection>

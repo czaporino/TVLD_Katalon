@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>AddressDetails_h_verify</name>
+   <name>AddressDetailsHomeVerify</name>
    <tag></tag>
    <elementGuidId>1965f28f-d81a-4c29-b935-99674b65e77d</elementGuidId>
    <selectorCollection>
