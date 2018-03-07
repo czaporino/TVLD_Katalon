@@ -28,6 +28,8 @@ WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
 
 WebUI.waitForPageLoad(1)
 
+not_run: WebUI.delay(10)
+
 WebUI.click(findTestObject('TVLD/MyProfile'))
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/CreditCardsLink'))

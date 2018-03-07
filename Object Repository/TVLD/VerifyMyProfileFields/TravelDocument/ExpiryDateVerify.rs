@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ExpiryDateVerify</name>
+   <tag></tag>
+   <elementGuidId>6de69230-8b54-4482-ae9b-e9de4f8b804c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;TD&quot;]/table[4]/tbody/tr/td/table/tbody/tr[2]/td[4]/font</value>
+   </webElementProperties>
+</WebElementEntity>
