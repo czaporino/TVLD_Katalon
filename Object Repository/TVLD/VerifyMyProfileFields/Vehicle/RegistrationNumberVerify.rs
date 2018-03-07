@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>RegistrationNumberVerify</name>
+   <tag></tag>
+   <elementGuidId>074dde4a-c161-4a4f-a0a9-cf8e4a206d92</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;VEHICULE&quot;]/table[4]/tbody/tr/td/table/tbody/tr[2]/td[3]</value>
+   </webElementProperties>
+</WebElementEntity>

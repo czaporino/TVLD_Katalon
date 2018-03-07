@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>EngineSizeVerify</name>
+   <tag></tag>
+   <elementGuidId>bf776fd3-88d2-4e4a-8afd-03134196ffd7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;VEHICULE&quot;]/table[4]/tbody/tr/td/table/tbody/tr[2]/td[4]</value>
+   </webElementProperties>
+</WebElementEntity>

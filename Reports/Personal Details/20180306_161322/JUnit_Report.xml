@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Personal Details" time="134" tests="5" failures="0" errors="0">
+   <testsuite name="Personal Details" tests="5" failures="0" errors="0" time="134" timestamp="2018-03-06 16:13:25" hostname="PLLUSKR - PL-L-7003506.europe.abb.com" id="Test Suites/Personal Details">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\plluskr\\Documents\\TVLD_Katalon\\Reports\\Personal Details\\20180306_161322"/>
+         <property name="logFiles" value="C:\\Users\\plluskr\\Documents\\TVLD_Katalon\\Reports\\Personal Details\\20180306_161322\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PLLUSKR - PL-L-7003506.europe.abb.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 64.0.3282.167"/>
+         <property name="hostAddress" value="10.48.78.64"/>
+         <property name="sessionId" value="885edc2b6b5398e850095c0f961b87e8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Profile-UpdatePersonalDetails" classname="Test Cases/Profile-UpdatePersonalDetails" status="PASSED">
+         <system-out><![CDATA[2018-03-06 16:13:26 - [TEST_CASE][PASSED] - Test Cases/Profile-UpdatePersonalDetails: Test Cases/Profile-UpdatePersonalDetails
+
+2018-03-06 16:13:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-06 16:13:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-06 16:13:31 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-06 16:13:31 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-06 16:13:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG' successfully
+
+2018-03-06 16:13:35 - [MESSAGE][PASSED] - Navigate to 'https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG' successfully
+
+2018-03-06 16:13:35 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-06 16:13:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-06 16:13:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfile' is clicked on
+
+2018-03-06 16:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfile' is clicked on
+
+2018-03-06 16:13:39 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-06 16:13:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-06 16:13:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsLink' is clicked on
+
+2018-03-06 16:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsLink' is clicked on
+
+2018-03-06 16:13:40 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-06 16:13:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-06 16:13:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetails' is clicked on
+
+2018-03-06 16:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetails' is clicked on
+
+2018-03-06 16:13:40 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-06 16:13:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-06 16:13:40 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Melle' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/Title' 
+
+2018-03-06 16:13:41 - [MESSAGE][PASSED] - All options with value 'Melle' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/Title' 
+
+2018-03-06 16:13:41 - [TEST_STEP][PASSED] - setText: Text 'Anna' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/FirstName'
+
+2018-03-06 16:13:41 - [MESSAGE][PASSED] - Text 'Anna' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/FirstName'
+
+2018-03-06 16:13:41 - [TEST_STEP][PASSED] - setText: Text 'Maria' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/MiddleName'
+
+2018-03-06 16:13:41 - [MESSAGE][PASSED] - Text 'Maria' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/MiddleName'
+
+2018-03-06 16:13:41 - [TEST_STEP][PASSED] - setText: Text 'Nowak' is set on object 'Object Repository/TVLD/MyProfilePage/CreditCardsPage/LastName'
+
+2018-03-06 16:13:41 - [MESSAGE][PASSED] - Text 'Nowak' is set on object 'Object Repository/TVLD/MyProfilePage/CreditCardsPage/LastName'
+
+2018-03-06 16:13:41 - [TEST_STEP][PASSED] - setText: Text '01/01/1999' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/DateOfBirth'
+
+2018-03-06 16:13:42 - [MESSAGE][PASSED] - Text '01/01/1999' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/DateOfBirth'
+
+2018-03-06 16:13:42 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'DE' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/Nationality'  using regular expression
+
+2018-03-06 16:13:46 - [MESSAGE][PASSED] - All options with value 'DE' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/Nationality'  using regular expression
+
+2018-03-06 16:13:46 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'DE' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/CountryOfResidence'  using regular expression
+
+2018-03-06 16:13:49 - [MESSAGE][PASSED] - All options with value 'DE' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/CountryOfResidence'  using regular expression
+
+2018-03-06 16:13:49 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/EmployeeID'
+
+2018-03-06 16:13:50 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/EmployeeID'
+
+2018-03-06 16:13:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/SaveChanges' is clicked on
+
+2018-03-06 16:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/SaveChanges' is clicked on
+
+2018-03-06 16:13:51 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'ID information has been updated' is present on page  using regular expression
+
+2018-03-06 16:13:51 - [MESSAGE][PASSED] - Text 'ID information has been updated' is present on page  using regular expression
+
+2018-03-06 16:13:51 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-06 16:13:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-06 16:13:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/PersonalDetails/NameVerify' are matched.
+
+2018-03-06 16:13:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/PersonalDetails/NameVerify' are matched.
+
+2018-03-06 16:13:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/PersonalDetails/DateOfBirthVerify' are matched.
+
+2018-03-06 16:13:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/PersonalDetails/DateOfBirthVerify' are matched.
+
+2018-03-06 16:13:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/PersonalDetails/NationalityVerify' are matched.
+
+2018-03-06 16:13:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/PersonalDetails/NationalityVerify' are matched.
+
+2018-03-06 16:13:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/PersonalDetails/CoutryOfResidenceVerify' are matched.
+
+2018-03-06 16:13:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/PersonalDetails/CoutryOfResidenceVerify' are matched.
+
+2018-03-06 16:13:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/PersonalDetails/EmployeeIDVerify' are matched.
+
+2018-03-06 16:13:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/PersonalDetails/EmployeeIDVerify' are matched.
+
+2018-03-06 16:13:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetails' is clicked on
+
+2018-03-06 16:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetails' is clicked on
+
+2018-03-06 16:13:52 - [TEST_STEP][PASSED] - setText: Text 'Lukasz' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/FirstName'
+
+2018-03-06 16:13:53 - [MESSAGE][PASSED] - Text 'Lukasz' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/FirstName'
+
+2018-03-06 16:13:53 - [TEST_STEP][PASSED] - setText: Text 'Bartosz' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/MiddleName'
+
+2018-03-06 16:13:53 - [MESSAGE][PASSED] - Text 'Bartosz' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/MiddleName'
+
+2018-03-06 16:13:53 - [TEST_STEP][PASSED] - setText: Text 'Skrzypek' is set on object 'Object Repository/TVLD/MyProfilePage/CreditCardsPage/LastName'
+
+2018-03-06 16:13:53 - [MESSAGE][PASSED] - Text 'Skrzypek' is set on object 'Object Repository/TVLD/MyProfilePage/CreditCardsPage/LastName'
+
+2018-03-06 16:13:53 - [TEST_STEP][PASSED] - setText: Text '01/01/1995' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/DateOfBirth'
+
+2018-03-06 16:13:53 - [MESSAGE][PASSED] - Text '01/01/1995' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/DateOfBirth'
+
+2018-03-06 16:13:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PL' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/Nationality'  using regular expression
+
+2018-03-06 16:13:58 - [MESSAGE][PASSED] - All options with value 'PL' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/Nationality'  using regular expression
+
+2018-03-06 16:13:58 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PL' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/CountryOfResidence'  using regular expression
+
+2018-03-06 16:14:03 - [MESSAGE][PASSED] - All options with value 'PL' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/CountryOfResidence'  using regular expression
+
+2018-03-06 16:14:03 - [TEST_STEP][PASSED] - setText: Text '987654321' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/EmployeeID'
+
+2018-03-06 16:14:03 - [MESSAGE][PASSED] - Text '987654321' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/EmployeeID'
+
+2018-03-06 16:14:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/SaveChanges' is clicked on
+
+2018-03-06 16:14:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/SaveChanges' is clicked on
+
+2018-03-06 16:14:04 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'ID information has been updated' is present on page  using regular expression
+
+2018-03-06 16:14:04 - [MESSAGE][PASSED] - Text 'ID information has been updated' is present on page  using regular expression
+
+2018-03-06 16:14:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-06 16:14:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profile-UpdateTelephonesAndEmails" classname="Test Cases/Profile-UpdateTelephonesAndEmails" status="PASSED">
+         <system-out><![CDATA[2018-03-06 16:14:05 - [TEST_CASE][PASSED] - Test Cases/Profile-UpdateTelephonesAndEmails: Test Cases/Profile-UpdateTelephonesAndEmails
+
+2018-03-06 16:14:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-06 16:14:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-06 16:14:07 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-06 16:14:07 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-06 16:14:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG' successfully
+
+2018-03-06 16:14:12 - [MESSAGE][PASSED] - Navigate to 'https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG' successfully
+
+2018-03-06 16:14:12 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-06 16:14:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-06 16:14:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfile' is clicked on
+
+2018-03-06 16:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfile' is clicked on
+
+2018-03-06 16:14:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/TelephoneNumbersLink' is clicked on
+
+2018-03-06 16:14:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/TelephoneNumbersLink' is clicked on
+
+2018-03-06 16:14:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmail' is clicked on
+
+2018-03-06 16:14:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmail' is clicked on
+
+2018-03-06 16:14:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfile' is clicked on
+
+2018-03-06 16:14:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfile' is clicked on
+
+2018-03-06 16:14:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/EmailLink' is clicked on
+
+2018-03-06 16:14:18 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/EmailLink' is clicked on
+
+2018-03-06 16:14:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmail' is clicked on
+
+2018-03-06 16:14:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmail' is clicked on
+
+2018-03-06 16:14:19 - [TEST_STEP][PASSED] - setText: Text '0048-555666777' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/BusinessPhone'
+
+2018-03-06 16:14:20 - [MESSAGE][PASSED] - Text '0048-555666777' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/BusinessPhone'
+
+2018-03-06 16:14:20 - [TEST_STEP][PASSED] - setText: Text '0012-657421345' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/HomePhone'
+
+2018-03-06 16:14:20 - [MESSAGE][PASSED] - Text '0012-657421345' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/HomePhone'
+
+2018-03-06 16:14:20 - [TEST_STEP][PASSED] - setText: Text '0048-111222333' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/MobilePhone'
+
+2018-03-06 16:14:20 - [MESSAGE][PASSED] - Text '0048-111222333' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/MobilePhone'
+
+2018-03-06 16:14:20 - [TEST_STEP][PASSED] - setText: Text '1234@pl.x.com' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/PrimaryEmailAddress'
+
+2018-03-06 16:14:20 - [MESSAGE][PASSED] - Text '1234@pl.x.com' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/PrimaryEmailAddress'
+
+2018-03-06 16:14:20 - [TEST_STEP][PASSED] - setText: Text '345@pl.x.com' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/SecondaryEmailAddress'
+
+2018-03-06 16:14:21 - [MESSAGE][PASSED] - Text '345@pl.x.com' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/SecondaryEmailAddress'
+
+2018-03-06 16:14:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/SaveChanges' is clicked on
+
+2018-03-06 16:14:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/SaveChanges' is clicked on
+
+2018-03-06 16:14:21 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Telephone numbers and email have been updated' is present on page  using regular expression
+
+2018-03-06 16:14:22 - [MESSAGE][PASSED] - Text 'Telephone numbers and email have been updated' is present on page  using regular expression
+
+2018-03-06 16:14:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/TelephoneAndEmail/BusinessPhoneVerify' are matched.
+
+2018-03-06 16:14:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/TelephoneAndEmail/BusinessPhoneVerify' are matched.
+
+2018-03-06 16:14:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/TelephoneAndEmail/HomePhoneVerify' are matched.
+
+2018-03-06 16:14:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/TelephoneAndEmail/HomePhoneVerify' are matched.
+
+2018-03-06 16:14:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/TelephoneAndEmail/MobilePhoneVerify' are matched.
+
+2018-03-06 16:14:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/TelephoneAndEmail/MobilePhoneVerify' are matched.
+
+2018-03-06 16:14:22 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-03-06 16:14:22 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-03-06 16:14:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmail' is clicked on
+
+2018-03-06 16:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmail' is clicked on
+
+2018-03-06 16:14:23 - [TEST_STEP][PASSED] - setText: Text '0048-111111111' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/BusinessPhone'
+
+2018-03-06 16:14:23 - [MESSAGE][PASSED] - Text '0048-111111111' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/BusinessPhone'
+
+2018-03-06 16:14:23 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/HomePhone'
+
+2018-03-06 16:14:23 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/HomePhone'
+
+2018-03-06 16:14:23 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/MobilePhone'
+
+2018-03-06 16:14:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/MobilePhone'
+
+2018-03-06 16:14:24 - [TEST_STEP][PASSED] - setText: Text 'qwerty@pl.x.com' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/PrimaryEmailAddress'
+
+2018-03-06 16:14:24 - [MESSAGE][PASSED] - Text 'qwerty@pl.x.com' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/PrimaryEmailAddress'
+
+2018-03-06 16:14:24 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/SecondaryEmailAddress'
+
+2018-03-06 16:14:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/SecondaryEmailAddress'
+
+2018-03-06 16:14:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/SaveChanges' is clicked on
+
+2018-03-06 16:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/SaveChanges' is clicked on
+
+2018-03-06 16:14:25 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Telephone numbers and email have been updated' is present on page  using regular expression
+
+2018-03-06 16:14:26 - [MESSAGE][PASSED] - Text 'Telephone numbers and email have been updated' is present on page  using regular expression
+
+2018-03-06 16:14:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/TelephoneAndEmail/BusinessPhoneVerify' are matched.
+
+2018-03-06 16:14:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/TelephoneAndEmail/BusinessPhoneVerify' are matched.
+
+2018-03-06 16:14:26 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-03-06 16:14:26 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-03-06 16:14:26 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-03-06 16:14:26 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-03-06 16:14:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-06 16:14:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profile-AddPassport" classname="Test Cases/Profile-AddPassport" status="PASSED">
+         <system-out><![CDATA[2018-03-06 16:14:27 - [TEST_CASE][PASSED] - Test Cases/Profile-AddPassport: Test Cases/Profile-AddPassport
+
+2018-03-06 16:14:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-06 16:14:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-06 16:14:29 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-06 16:14:29 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-06 16:14:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG' successfully
+
+2018-03-06 16:14:33 - [MESSAGE][PASSED] - Navigate to 'https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG' successfully
+
+2018-03-06 16:14:33 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-06 16:14:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-06 16:14:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfile' is clicked on
+
+2018-03-06 16:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfile' is clicked on
+
+2018-03-06 16:14:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/PassportLink' is clicked on
+
+2018-03-06 16:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/PassportLink' is clicked on
+
+2018-03-06 16:14:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddPassport' is clicked on
+
+2018-03-06 16:14:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddPassport' is clicked on
+
+2018-03-06 16:14:39 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PL' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/Country'  using regular expression
+
+2018-03-06 16:14:43 - [MESSAGE][PASSED] - All options with value 'PL' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/Country'  using regular expression
+
+2018-03-06 16:14:43 - [TEST_STEP][PASSED] - setText: Text '123890' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/Number'
+
+2018-03-06 16:14:43 - [MESSAGE][PASSED] - Text '123890' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/Number'
+
+2018-03-06 16:14:43 - [TEST_STEP][PASSED] - setText: Text '10/07/2009' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/ExpiryDate'
+
+2018-03-06 16:14:43 - [MESSAGE][PASSED] - Text '10/07/2009' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/ExpiryDate'
+
+2018-03-06 16:14:43 - [TEST_STEP][PASSED] - setText: Text 'Kraków' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/CityPlaceOfIssue'
+
+2018-03-06 16:14:44 - [MESSAGE][PASSED] - Text 'Kraków' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/CityPlaceOfIssue'
+
+2018-03-06 16:14:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PL' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/CoutryPlaceOfIssue'  using regular expression
+
+2018-03-06 16:14:49 - [MESSAGE][PASSED] - All options with value 'PL' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/CoutryPlaceOfIssue'  using regular expression
+
+2018-03-06 16:14:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/SaveChanges' is clicked on
+
+2018-03-06 16:14:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/SaveChanges' is clicked on
+
+2018-03-06 16:14:50 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'A new passport has been added to your profile' is present on page  using regular expression
+
+2018-03-06 16:14:50 - [MESSAGE][PASSED] - Text 'A new passport has been added to your profile' is present on page  using regular expression
+
+2018-03-06 16:14:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/Passport/PassportNumberVerify' are matched.
+
+2018-03-06 16:14:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/Passport/PassportNumberVerify' are matched.
+
+2018-03-06 16:14:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/Passport/PassportCountryVerify' are matched.
+
+2018-03-06 16:14:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/Passport/PassportCountryVerify' are matched.
+
+2018-03-06 16:14:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/Passport/PassportExpiryDateVerify' are matched.
+
+2018-03-06 16:14:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/Passport/PassportExpiryDateVerify' are matched.
+
+2018-03-06 16:14:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/DeletePassport' is clicked on
+
+2018-03-06 16:14:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/DeletePassport' is clicked on
+
+2018-03-06 16:14:50 - [TEST_STEP][PASSED] - waitForAlert: Alert is present after 30 second(s).
+
+2018-03-06 16:14:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-06 16:14:51 - [MESSAGE][PASSED] - Alert is present after 30 second(s).
+
+2018-03-06 16:14:51 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-03-06 16:14:51 - [MESSAGE][PASSED] - Alert accepted
+
+2018-03-06 16:14:51 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Passport information has been deleted.' is present on page  using regular expression
+
+2018-03-06 16:14:52 - [MESSAGE][PASSED] - Text 'Passport information has been deleted.' is present on page  using regular expression
+
+2018-03-06 16:14:52 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-06 16:14:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profile-AddIDCard" classname="Test Cases/Profile-AddIDCard" status="PASSED">
+         <system-out><![CDATA[2018-03-06 16:14:53 - [TEST_CASE][PASSED] - Test Cases/Profile-AddIDCard: Test Cases/Profile-AddIDCard
+
+2018-03-06 16:14:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-06 16:14:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-06 16:14:55 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-06 16:14:55 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-06 16:14:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG' successfully
+
+2018-03-06 16:14:59 - [MESSAGE][PASSED] - Navigate to 'https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG' successfully
+
+2018-03-06 16:14:59 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-06 16:15:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-06 16:15:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfile' is clicked on
+
+2018-03-06 16:15:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfile' is clicked on
+
+2018-03-06 16:15:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/IDCardLink' is clicked on
+
+2018-03-06 16:15:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/IDCardLink' is clicked on
+
+2018-03-06 16:15:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddIDCard' is clicked on
+
+2018-03-06 16:15:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddIDCard' is clicked on
+
+2018-03-06 16:15:04 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PL' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/Country'  using regular expression
+
+2018-03-06 16:15:08 - [MESSAGE][PASSED] - All options with value 'PL' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/Country'  using regular expression
+
+2018-03-06 16:15:08 - [TEST_STEP][PASSED] - setText: Text '5532556346' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/Number'
+
+2018-03-06 16:15:08 - [MESSAGE][PASSED] - Text '5532556346' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/Number'
+
+2018-03-06 16:15:08 - [TEST_STEP][PASSED] - setText: Text '10/07/2009' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/ExpiryDate'
+
+2018-03-06 16:15:08 - [MESSAGE][PASSED] - Text '10/07/2009' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/ExpiryDate'
+
+2018-03-06 16:15:08 - [TEST_STEP][PASSED] - setText: Text 'Kraków' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/CityPlaceOfIssue'
+
+2018-03-06 16:15:09 - [MESSAGE][PASSED] - Text 'Kraków' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/CityPlaceOfIssue'
+
+2018-03-06 16:15:09 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PL' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/CountryPlaceOfIssue'  using regular expression
+
+2018-03-06 16:15:13 - [MESSAGE][PASSED] - All options with value 'PL' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/CountryPlaceOfIssue'  using regular expression
+
+2018-03-06 16:15:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/SaveChanges' is clicked on
+
+2018-03-06 16:15:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/SaveChanges' is clicked on
+
+2018-03-06 16:15:14 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'A new ID Card has been added to your profile.' is present on page  using regular expression
+
+2018-03-06 16:15:14 - [MESSAGE][PASSED] - Text 'A new ID Card has been added to your profile.' is present on page  using regular expression
+
+2018-03-06 16:15:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/IDCard/IDNumberVerify' are matched.
+
+2018-03-06 16:15:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/IDCard/IDNumberVerify' are matched.
+
+2018-03-06 16:15:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/IDCard/IDCountryVerify' are matched.
+
+2018-03-06 16:15:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/IDCard/IDCountryVerify' are matched.
+
+2018-03-06 16:15:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/IDCard/IDExpiryDateVerify' are matched.
+
+2018-03-06 16:15:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/IDCard/IDExpiryDateVerify' are matched.
+
+2018-03-06 16:15:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/DeleteIDCard' is clicked on
+
+2018-03-06 16:15:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/DeleteIDCard' is clicked on
+
+2018-03-06 16:15:14 - [TEST_STEP][PASSED] - waitForAlert: Alert is present after 30 second(s).
+
+2018-03-06 16:15:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-06 16:15:14 - [MESSAGE][PASSED] - Alert is present after 30 second(s).
+
+2018-03-06 16:15:14 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-03-06 16:15:14 - [MESSAGE][PASSED] - Alert accepted
+
+2018-03-06 16:15:14 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'ID Card information has been deleted.' is present on page  using regular expression
+
+2018-03-06 16:15:16 - [MESSAGE][PASSED] - Text 'ID Card information has been deleted.' is present on page  using regular expression
+
+2018-03-06 16:15:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-06 16:15:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profile-AddDrivingLicence" classname="Test Cases/Profile-AddDrivingLicence" status="PASSED">
+         <system-out><![CDATA[2018-03-06 16:15:16 - [TEST_CASE][PASSED] - Test Cases/Profile-AddDrivingLicence: Test Cases/Profile-AddDrivingLicence
+
+2018-03-06 16:15:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-06 16:15:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-06 16:15:18 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-06 16:15:19 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-06 16:15:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG' successfully
+
+2018-03-06 16:15:23 - [MESSAGE][PASSED] - Navigate to 'https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG' successfully
+
+2018-03-06 16:15:23 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-06 16:15:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-06 16:15:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfile' is clicked on
+
+2018-03-06 16:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfile' is clicked on
+
+2018-03-06 16:15:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/DrivingLicenceLink' is clicked on
+
+2018-03-06 16:15:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/DrivingLicenceLink' is clicked on
+
+2018-03-06 16:15:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicence' is clicked on
+
+2018-03-06 16:15:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicence' is clicked on
+
+2018-03-06 16:15:27 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PL' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/Country'  using regular expression
+
+2018-03-06 16:15:31 - [MESSAGE][PASSED] - All options with value 'PL' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/Country'  using regular expression
+
+2018-03-06 16:15:31 - [TEST_STEP][PASSED] - setText: Text '5532556346' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/Number'
+
+2018-03-06 16:15:31 - [MESSAGE][PASSED] - Text '5532556346' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/Number'
+
+2018-03-06 16:15:31 - [TEST_STEP][PASSED] - setText: Text '10/07/2009' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/DateOfIssue'
+
+2018-03-06 16:15:32 - [MESSAGE][PASSED] - Text '10/07/2009' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/DateOfIssue'
+
+2018-03-06 16:15:32 - [TEST_STEP][PASSED] - setText: Text 'Kraków' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/CityPlaceOfIssue'
+
+2018-03-06 16:15:32 - [MESSAGE][PASSED] - Text 'Kraków' is set on object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/CityPlaceOfIssue'
+
+2018-03-06 16:15:32 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'PL' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/CountryPlaceOfIssue'  using regular expression
+
+2018-03-06 16:15:36 - [MESSAGE][PASSED] - All options with value 'PL' are selected in object 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/CountryPlaceOfIssue'  using regular expression
+
+2018-03-06 16:15:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/SaveChanges' is clicked on
+
+2018-03-06 16:15:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/SaveChanges' is clicked on
+
+2018-03-06 16:15:37 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'A new driving licence has been added to your profile.' is present on page  using regular expression
+
+2018-03-06 16:15:37 - [MESSAGE][PASSED] - Text 'A new driving licence has been added to your profile.' is present on page  using regular expression
+
+2018-03-06 16:15:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/DrivingLicence/DrivingLicenceNumberVerify' are matched.
+
+2018-03-06 16:15:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/DrivingLicence/DrivingLicenceNumberVerify' are matched.
+
+2018-03-06 16:15:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/DrivingLicence/DrivingLicenceCoutryVerify' are matched.
+
+2018-03-06 16:15:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/DrivingLicence/DrivingLicenceCoutryVerify' are matched.
+
+2018-03-06 16:15:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/DrivingLicence/DrivingLicenceDateOfIssueVerify' are matched.
+
+2018-03-06 16:15:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/DrivingLicence/DrivingLicenceDateOfIssueVerify' are matched.
+
+2018-03-06 16:15:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/DrivingLicence/DrivingLicencePlaceOfIssueVerify' are matched.
+
+2018-03-06 16:15:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TVLD/VerifyMyProfileFields/DrivingLicence/DrivingLicencePlaceOfIssueVerify' are matched.
+
+2018-03-06 16:15:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/DeleteDrivingLicence' is clicked on
+
+2018-03-06 16:15:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/DeleteDrivingLicence' is clicked on
+
+2018-03-06 16:15:38 - [TEST_STEP][PASSED] - waitForAlert: Alert is present after 30 second(s).
+
+2018-03-06 16:15:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-06 16:15:38 - [MESSAGE][PASSED] - Alert is present after 30 second(s).
+
+2018-03-06 16:15:38 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-03-06 16:15:38 - [MESSAGE][PASSED] - Alert accepted
+
+2018-03-06 16:15:38 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Driving licence information has been deleted.' is present on page  using regular expression
+
+2018-03-06 16:15:39 - [MESSAGE][PASSED] - Text 'Driving licence information has been deleted.' is present on page  using regular expression
+
+2018-03-06 16:15:39 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-06 16:15:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-06 16:13:25 - [TEST_SUITE][PASSED] - Personal Details: Test Cases/Profile-AddDrivingLicence]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

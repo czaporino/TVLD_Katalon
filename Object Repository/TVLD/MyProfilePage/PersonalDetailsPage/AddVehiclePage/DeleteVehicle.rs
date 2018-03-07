@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DeleteVehicle</name>
+   <tag></tag>
+   <elementGuidId>948560dc-bf78-425c-ae9e-ec456ced0dda</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;VEHICULE&quot;]/table[4]/tbody/tr/td/table/tbody/tr[2]/td[1]/a[2]/img</value>
+   </webElementProperties>
+</WebElementEntity>
