@@ -26,7 +26,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
 
-WebUI.waitForPageLoad(1)
+WebUI.waitForPageLoad(2)
 
 not_run: WebUI.delay(10)
 
