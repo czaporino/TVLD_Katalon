@@ -41,4 +41,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Profile-AddDrivingLicence</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>e49ace34-eb48-47e5-8235-e77d4c89d11c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Profile-AddVehicle</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6884f868-4c96-4cdc-a93f-f95774d161f2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Profile-AddTravelDocument</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

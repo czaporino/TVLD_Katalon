@@ -46,8 +46,8 @@ WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEdit
 
 WebUI.setText(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/PostalCodeBusiness'), '10-001')
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/CountryBusiness'), 'PL', 
-    true)
+WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/CountryBusiness'), 
+    'PL', true)
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditBusiness/CheckDefaultDeliveryAddressBusiness'))
 
@@ -89,7 +89,7 @@ WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHo
 
 WebUI.click(findTestObject('TVLD/MyProfilePage/AddressBookPage/AddressBookEditHome/SaveHome'))
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Address/AddressNameHomeverify'), 'Krakow Dom')
+WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Address/AddressNameHomeverify'), 'Krakow Dom * ')
 
 WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Address/AddressDetailsHomeVerify'), 'Basztowa 1525')
 
