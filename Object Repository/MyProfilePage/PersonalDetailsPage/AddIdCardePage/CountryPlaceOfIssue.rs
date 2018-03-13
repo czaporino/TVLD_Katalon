@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CountryPlaceOfIssue</name>
+   <tag></tag>
+   <elementGuidId>8c72889e-3e2e-42d6-a568-3ac50d59fb7b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[3]/tbody/tr/td/table/tbody/tr[1]/td/table[8]/tbody/tr[2]/td[2]/font/select</value>
+   </webElementProperties>
+</WebElementEntity>

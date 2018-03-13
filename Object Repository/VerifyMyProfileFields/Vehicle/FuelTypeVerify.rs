@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FuelTypeVerify</name>
+   <tag></tag>
+   <elementGuidId>125bc80c-8af9-43d8-b28c-b8b1e22ae334</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;VEHICULE&quot;]/table[4]/tbody/tr/td/table/tbody/tr[2]/td[5]</value>
+   </webElementProperties>
+</WebElementEntity>

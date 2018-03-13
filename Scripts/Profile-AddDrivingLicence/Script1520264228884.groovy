@@ -27,37 +27,37 @@ WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
 
 WebUI.waitForPageLoad(2)
 
-WebUI.click(findTestObject('TVLD/MyProfile'))
+WebUI.click(findTestObject('HomePage/MyProfile'))
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/DrivingLicenceLink'))
+WebUI.click(findTestObject('MyProfilePage/DrivingLicenceLink'))
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicence'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/AddDrivingLicence'))
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/Country'), 'PL', 
+WebUI.selectOptionByValue(findTestObject('MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/Country'), 'PL', 
     true)
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/Number'), '5532556346')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/Number'), '5532556346')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/DateOfIssue'), '10/07/2009')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/DateOfIssue'), '10/07/2009')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/CityPlaceOfIssue'), 'Kraków')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/CityPlaceOfIssue'), 'Kraków')
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/CountryPlaceOfIssue'), 
+WebUI.selectOptionByValue(findTestObject('MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/CountryPlaceOfIssue'), 
     'PL', true)
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/SaveChanges'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/SaveChanges'))
 
 WebUI.verifyTextPresent('A new driving licence has been added to your profile.', true)
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/DrivingLicence/DrivingLicenceNumberVerify'), '5532556346')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/DrivingLicence/DrivingLicenceNumberVerify'), '5532556346')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/DrivingLicence/DrivingLicenceCoutryVerify'), 'Poland')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/DrivingLicence/DrivingLicenceCoutryVerify'), 'Poland')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/DrivingLicence/DrivingLicenceDateOfIssueVerify'), '10/07/2009')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/DrivingLicence/DrivingLicenceDateOfIssueVerify'), '10/07/2009')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/DrivingLicence/DrivingLicencePlaceOfIssueVerify'), 'Kraków')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/DrivingLicence/DrivingLicencePlaceOfIssueVerify'), 'Kraków')
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/DeleteDrivingLicence'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/AddDrivingLicencePage/DeleteDrivingLicence'))
 
 WebUI.waitForAlert(0)
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DeleteTravelDocument</name>
+   <tag></tag>
+   <elementGuidId>65c45046-3f8e-46e0-9e38-e623c878a579</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;TD&quot;]/table[4]/tbody/tr/td/table/tbody/tr[2]/td[1]/a[2]/img</value>
+   </webElementProperties>
+</WebElementEntity>

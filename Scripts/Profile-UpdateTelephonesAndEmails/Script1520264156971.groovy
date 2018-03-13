@@ -27,65 +27,65 @@ WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
 
 WebUI.waitForPageLoad(2)
 
-WebUI.click(findTestObject('TVLD/MyProfile'))
+WebUI.click(findTestObject('HomePage/MyProfile'))
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/TelephoneNumbersLink'))
+WebUI.click(findTestObject('MyProfilePage/TelephoneNumbersLink'))
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmail'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmail'))
 
-WebUI.click(findTestObject('TVLD/MyProfile'))
+WebUI.click(findTestObject('HomePage/MyProfile'))
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/EmailLink'))
+WebUI.click(findTestObject('MyProfilePage/EmailLink'))
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmail'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmail'))
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/BusinessPhone'), '0048-555666777')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/BusinessPhone'), '0048-555666777')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/HomePhone'), '0012-657421345')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/HomePhone'), '0012-657421345')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/MobilePhone'), '0048-111222333')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/MobilePhone'), '0048-111222333')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/PrimaryEmailAddress'), 
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/PrimaryEmailAddress'), 
     '1234@pl.x.com')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/SecondaryEmailAddress'), 
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/SecondaryEmailAddress'), 
     '345@pl.x.com')
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/SaveChanges'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/SaveChanges'))
 
 WebUI.verifyTextPresent('Telephone numbers and email have been updated', true)
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/TelephoneAndEmail/BusinessPhoneVerify'), '0048-555666777')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/TelephoneAndEmail/BusinessPhoneVerify'), '0048-555666777')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/TelephoneAndEmail/HomePhoneVerify'), '0012-657421345')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/TelephoneAndEmail/HomePhoneVerify'), '0012-657421345')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/TelephoneAndEmail/MobilePhoneVerify'), '0048-111222333')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/TelephoneAndEmail/MobilePhoneVerify'), '0048-111222333')
 
-not_run: WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/TelephoneAndEmail/EmailVerify'), '1234@Pl.X.Com , 345@Pl.X.Com')
+not_run: WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/TelephoneAndEmail/EmailVerify'), '1234@Pl.X.Com , 345@Pl.X.Com')
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmail'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmail'))
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/BusinessPhone'), '0048-111111111')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/BusinessPhone'), '0048-111111111')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/HomePhone'), '')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/HomePhone'), '')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/MobilePhone'), '')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/MobilePhone'), '')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/PrimaryEmailAddress'), 
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/PrimaryEmailAddress'), 
     'qwerty@pl.x.com')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/SecondaryEmailAddress'), 
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/SecondaryEmailAddress'), 
     '')
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/SaveChanges'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateTelephonesAndEmailPage/SaveChanges'))
 
 WebUI.verifyTextPresent('Telephone numbers and email have been updated', true)
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/TelephoneAndEmail/BusinessPhoneVerify'), '0048-111111111')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/TelephoneAndEmail/BusinessPhoneVerify'), '0048-111111111')
 
-not_run: WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/TelephoneAndEmail/HomePhoneVerify'), '')
+not_run: WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/TelephoneAndEmail/HomePhoneVerify'), '')
 
-not_run: WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/TelephoneAndEmail/MobilePhoneVerify'), '')
+not_run: WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/TelephoneAndEmail/MobilePhoneVerify'), '')
 
 WebUI.closeBrowser()
 

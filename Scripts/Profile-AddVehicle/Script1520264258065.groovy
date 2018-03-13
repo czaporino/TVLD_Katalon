@@ -27,47 +27,47 @@ WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
 
 WebUI.waitForPageLoad(1)
 
-WebUI.click(findTestObject('TVLD/MyProfile'))
+WebUI.click(findTestObject('HomePage/MyProfile'))
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/VehicleLink'))
+WebUI.click(findTestObject('MyProfilePage/VehicleLink'))
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddVehicle'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/AddVehicle'))
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddVehiclePage/Make'), 'Volvo')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/AddVehiclePage/Make'), 'Volvo')
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddVehiclePage/VehicleType'), 'VEHICLE_TYPE_CAR', 
+WebUI.selectOptionByValue(findTestObject('MyProfilePage/PersonalDetailsPage/AddVehiclePage/VehicleType'), 'VEHICLE_TYPE_CAR', 
     true)
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddVehiclePage/Model'), 'S40')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/AddVehiclePage/Model'), 'S40')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddVehiclePage/RegistrationNumber'), 'RKA12345')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/AddVehiclePage/RegistrationNumber'), 'RKA12345')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddVehiclePage/Colour'), 'red')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/AddVehiclePage/Colour'), 'red')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddVehiclePage/EngineSize'), '1900')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/AddVehiclePage/EngineSize'), '1900')
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddVehiclePage/SelectCVorCC'), 'CC', true)
+WebUI.selectOptionByValue(findTestObject('MyProfilePage/PersonalDetailsPage/AddVehiclePage/SelectCVorCC'), 'CC', true)
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddVehiclePage/FuelType'), 'FUEL_TYPE_DIESEL', 
+WebUI.selectOptionByValue(findTestObject('MyProfilePage/PersonalDetailsPage/AddVehiclePage/FuelType'), 'FUEL_TYPE_DIESEL', 
     true)
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddVehiclePage/SaveChanges'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/AddVehiclePage/SaveChanges'))
 
 WebUI.verifyTextPresent('A new vehicle has been added to your profile.', true)
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Vehicle/MakeVerify'), 'Volvo')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/Vehicle/MakeVerify'), 'Volvo')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Vehicle/VehicleTypeVerify'), 'Car')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/Vehicle/VehicleTypeVerify'), 'Car')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Vehicle/RegistrationNumberVerify'), 'RKA12345')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/Vehicle/RegistrationNumberVerify'), 'RKA12345')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Vehicle/EngineSizeVerify'), '1900  CC')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/Vehicle/EngineSizeVerify'), '1900  CC')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Vehicle/FuelTypeVerify'), 'Diesel')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/Vehicle/FuelTypeVerify'), 'Diesel')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Vehicle/CategoryVerify'), 'Personal Vehicle')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/Vehicle/CategoryVerify'), 'Personal Vehicle')
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddVehiclePage/DeleteVehicle'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/AddVehiclePage/DeleteVehicle'))
 
 WebUI.waitForAlert(0)
 

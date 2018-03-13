@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>HomePhoneVerify</name>
+   <tag></tag>
+   <elementGuidId>032db05e-d806-4ca0-bd83-3854700f4e96</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[3]/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr/td/table[6]/tbody/tr[2]/td[2]/font</value>
+   </webElementProperties>
+</WebElementEntity>

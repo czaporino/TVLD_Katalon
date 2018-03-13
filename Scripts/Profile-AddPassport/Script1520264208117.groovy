@@ -27,34 +27,34 @@ WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
 
 WebUI.waitForPageLoad(2)
 
-WebUI.click(findTestObject('TVLD/MyProfile'))
+WebUI.click(findTestObject('HomePage/MyProfile'))
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PassportLink'))
+WebUI.click(findTestObject('MyProfilePage/PassportLink'))
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddPassport'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/AddPassport'))
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/Country'), 'PL', true)
+WebUI.selectOptionByValue(findTestObject('MyProfilePage/PersonalDetailsPage/AddPassportPage/Country'), 'PL', true)
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/Number'), '123890')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/AddPassportPage/Number'), '123890')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/ExpiryDate'), '10/07/2009')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/AddPassportPage/ExpiryDate'), '10/07/2009')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/CityPlaceOfIssue'), 'Kraków')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/AddPassportPage/CityPlaceOfIssue'), 'Kraków')
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/CoutryPlaceOfIssue'), 'PL', 
+WebUI.selectOptionByValue(findTestObject('MyProfilePage/PersonalDetailsPage/AddPassportPage/CoutryPlaceOfIssue'), 'PL', 
     true)
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/SaveChanges'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/SaveChanges'))
 
 WebUI.verifyTextPresent('A new passport has been added to your profile', true)
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Passport/PassportNumberVerify'), '123890')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/Passport/PassportNumberVerify'), '123890')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Passport/PassportCountryVerify'), 'Poland')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/Passport/PassportCountryVerify'), 'Poland')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/Passport/PassportExpiryDateVerify'), '10/07/2009')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/Passport/PassportExpiryDateVerify'), '10/07/2009')
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddPassportPage/DeletePassport'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/AddPassportPage/DeletePassport'))
 
 WebUI.waitForAlert(0)
 

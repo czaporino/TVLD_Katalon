@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SecondaryEmailAddress</name>
+   <tag></tag>
+   <elementGuidId>b6cbe384-eccf-4b8c-b85d-3c37b0af0ff2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table[3]/tbody/tr/td/table/tbody/tr[1]/td[2]/table[2]/tbody/tr[5]/td[2]/input</value>
+   </webElementProperties>
+</WebElementEntity>

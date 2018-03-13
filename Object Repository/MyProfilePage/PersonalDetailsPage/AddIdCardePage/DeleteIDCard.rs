@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DeleteIDCard</name>
+   <tag></tag>
+   <elementGuidId>8aed6d20-6347-42a2-9105-1d82268225cd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;ID&quot;]/table[4]/tbody/tr/td/table/tbody/tr[2]/td[1]/a[2]/img</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -27,45 +27,45 @@ WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
 
 WebUI.waitForPageLoad(2)
 
-WebUI.click(findTestObject('TVLD/MyProfile'))
+WebUI.click(findTestObject('HomePage/MyProfile'))
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/TelephoneNumbersLink'))
+WebUI.click(findTestObject('MyProfilePage/TelephoneNumbersLink'))
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContact'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateEmergencyContact'))
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/FullName'), '0048-555666777')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/FullName'), '0048-555666777')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/PhoneNumber'), '0012-657421345')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/PhoneNumber'), '0012-657421345')
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/Country'), 'PL', 
+WebUI.selectOptionByValue(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/Country'), 'PL', 
     true)
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/SaveChanges'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/SaveChanges'))
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/EmergencyContact/NameVerify'), '0048-555666777')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/EmergencyContact/NameVerify'), '0048-555666777')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/EmergencyContact/PhoneNumberVerify'), '0012-657421345')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/EmergencyContact/PhoneNumberVerify'), '0012-657421345')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/EmergencyContact/CountryVerify'), 'Poland')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/EmergencyContact/CountryVerify'), 'Poland')
 
 WebUI.verifyTextPresent('Emergency contact has been updated', true)
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContact'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateEmergencyContact'))
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/FullName'), '0048-000000000')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/FullName'), '0048-000000000')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/PhoneNumber'), '0012-00000000')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/PhoneNumber'), '0012-00000000')
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/Country'), 'DE', 
+WebUI.selectOptionByValue(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/Country'), 'DE', 
     true)
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/SaveChanges'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/SaveChanges'))
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/EmergencyContact/NameVerify'), '0048-000000000')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/EmergencyContact/NameVerify'), '0048-000000000')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/EmergencyContact/PhoneNumberVerify'), '0012-00000000')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/EmergencyContact/PhoneNumberVerify'), '0012-00000000')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/EmergencyContact/CountryVerify'), 'Germany')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/EmergencyContact/CountryVerify'), 'Germany')
 
 WebUI.verifyTextPresent('Emergency contact has been updated', true)
 

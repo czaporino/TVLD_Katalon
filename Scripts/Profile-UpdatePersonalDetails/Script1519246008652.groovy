@@ -28,72 +28,72 @@ WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
 
 WebUI.waitForPageLoad(2)
 
-WebUI.click(findTestObject('TVLD/MyProfile'))
+WebUI.click(findTestObject('HomePage/MyProfile'))
 
 WebUI.waitForPageLoad(2)
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsLink'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsLink'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetails'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/UpdatePersonalDetails'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/Title'), 'Melle', 
+WebUI.selectOptionByValue(findTestObject('MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/Title'), 'Melle', 
     false)
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/FirstName'), 'Anna')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/FirstName'), 'Anna')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/MiddleName'), 'Maria')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/MiddleName'), 'Maria')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/CreditCardsPage/LastName'), 'Nowak')
+WebUI.setText(findTestObject('MyProfilePage/CreditCardsPage/LastName'), 'Nowak')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/DateOfBirth'), '01/01/1999')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/DateOfBirth'), '01/01/1999')
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/Nationality'), 
+WebUI.selectOptionByValue(findTestObject('MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/Nationality'), 
     'DE', true)
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/CountryOfResidence'), 
+WebUI.selectOptionByValue(findTestObject('MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/CountryOfResidence'), 
     'DE', true)
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/EmployeeID'), '1234567890')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/EmployeeID'), '1234567890')
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/SaveChanges'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/SaveChanges'))
 
 WebUI.verifyTextPresent('ID information has been updated', true)
 
 WebUI.waitForPageLoad(1)
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/PersonalDetails/NameVerify'), 'Miss Anna Maria Nowak')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/PersonalDetails/NameVerify'), 'Miss Anna Maria Nowak')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/PersonalDetails/DateOfBirthVerify'), '01/01/1999')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/PersonalDetails/DateOfBirthVerify'), '01/01/1999')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/PersonalDetails/NationalityVerify'), 'Germany')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/PersonalDetails/NationalityVerify'), 'Germany')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/PersonalDetails/CoutryOfResidenceVerify'), 'Germany')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/PersonalDetails/CoutryOfResidenceVerify'), 'Germany')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/PersonalDetails/EmployeeIDVerify'), '1234567890')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/PersonalDetails/EmployeeIDVerify'), '1234567890')
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetails'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/UpdatePersonalDetails'))
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/FirstName'), 'Lukasz')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/FirstName'), 'Lukasz')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/MiddleName'), 'Bartosz')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/MiddleName'), 'Bartosz')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/CreditCardsPage/LastName'), 'Skrzypek')
+WebUI.setText(findTestObject('MyProfilePage/CreditCardsPage/LastName'), 'Skrzypek')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/DateOfBirth'), '01/01/1995')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/DateOfBirth'), '01/01/1995')
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/Nationality'), 
+WebUI.selectOptionByValue(findTestObject('MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/Nationality'), 
     'PL', true)
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/CountryOfResidence'), 
+WebUI.selectOptionByValue(findTestObject('MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/CountryOfResidence'), 
     'PL', true)
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/EmployeeID'), '987654321')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/EmployeeID'), '987654321')
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/SaveChanges'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/UpdatePersonalDetailsPage/SaveChanges'))
 
 WebUI.verifyTextPresent('ID information has been updated', true)
 

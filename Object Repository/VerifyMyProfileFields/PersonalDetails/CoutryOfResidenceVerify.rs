@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CoutryOfResidenceVerify</name>
+   <tag></tag>
+   <elementGuidId>ca6ff2d9-57fc-418e-8377-ed44a4c3dfe0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/form/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr/td/table[2]/tbody/tr[4]/td[2]/font</value>
+   </webElementProperties>
+</WebElementEntity>

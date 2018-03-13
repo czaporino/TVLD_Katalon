@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DrivingLicenceCoutryVerify</name>
+   <tag></tag>
+   <elementGuidId>4018c9e8-734b-4913-8296-ba065b6d7247</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;DL&quot;]/table[4]/tbody/tr/td/table/tbody/tr[2]/td[2]/font</value>
+   </webElementProperties>
+</WebElementEntity>

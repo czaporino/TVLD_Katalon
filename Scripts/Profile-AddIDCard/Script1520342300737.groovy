@@ -27,34 +27,34 @@ WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
 
 WebUI.waitForPageLoad(2)
 
-WebUI.click(findTestObject('TVLD/MyProfile'))
+WebUI.click(findTestObject('HomePage/MyProfile'))
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/IDCardLink'))
+WebUI.click(findTestObject('MyProfilePage/IDCardLink'))
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddIDCard'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/AddIDCard'))
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/Country'), 'PL', true)
+WebUI.selectOptionByValue(findTestObject('MyProfilePage/PersonalDetailsPage/AddIdCardePage/Country'), 'PL', true)
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/Number'), '5532556346')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/AddIdCardePage/Number'), '5532556346')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/ExpiryDate'), '10/07/2009')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/AddIdCardePage/ExpiryDate'), '10/07/2009')
 
-WebUI.setText(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/CityPlaceOfIssue'), 'Kraków')
+WebUI.setText(findTestObject('MyProfilePage/PersonalDetailsPage/AddIdCardePage/CityPlaceOfIssue'), 'Kraków')
 
-WebUI.selectOptionByValue(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/CountryPlaceOfIssue'), 'PL', 
+WebUI.selectOptionByValue(findTestObject('MyProfilePage/PersonalDetailsPage/AddIdCardePage/CountryPlaceOfIssue'), 'PL', 
     true)
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/SaveChanges'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/UpdateEmergencyContactPage/SaveChanges'))
 
 WebUI.verifyTextPresent('A new ID Card has been added to your profile.', true)
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/IDCard/IDNumberVerify'), '5532556346')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/IDCard/IDNumberVerify'), '5532556346')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/IDCard/IDCountryVerify'), 'Poland')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/IDCard/IDCountryVerify'), 'Poland')
 
-WebUI.verifyElementText(findTestObject('TVLD/VerifyMyProfileFields/IDCard/IDExpiryDateVerify'), '10/07/2009')
+WebUI.verifyElementText(findTestObject('VerifyMyProfileFields/IDCard/IDExpiryDateVerify'), '10/07/2009')
 
-WebUI.click(findTestObject('TVLD/MyProfilePage/PersonalDetailsPage/AddIdCardePage/DeleteIDCard'))
+WebUI.click(findTestObject('MyProfilePage/PersonalDetailsPage/AddIdCardePage/DeleteIDCard'))
 
 WebUI.waitForAlert(0)
 

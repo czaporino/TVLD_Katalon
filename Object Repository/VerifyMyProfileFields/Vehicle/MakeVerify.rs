@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>MakeVerify</name>
+   <tag></tag>
+   <elementGuidId>29149d70-cf0a-44fd-8e80-a5ca489401ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;VEHICULE&quot;]/table[4]/tbody/tr/td/table/tbody/tr[2]/td[1]</value>
+   </webElementProperties>
+</WebElementEntity>

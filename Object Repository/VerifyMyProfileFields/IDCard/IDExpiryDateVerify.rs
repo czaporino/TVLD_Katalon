@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>IDExpiryDateVerify</name>
+   <tag></tag>
+   <elementGuidId>df73ff0c-9d5c-4ff7-84ec-34821da64834</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;ID&quot;]/table[4]/tbody/tr/td/table/tbody/tr[2]/td[3]/font</value>
+   </webElementProperties>
+</WebElementEntity>
