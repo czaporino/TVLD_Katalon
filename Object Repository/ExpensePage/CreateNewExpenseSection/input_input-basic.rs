@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_ExpenseReportName</name>
+   <name>input_input-basic</name>
    <tag></tag>
-   <elementGuidId>e592596e-b623-4b81-a132-214b756d9243</elementGuidId>
+   <elementGuidId>a0f1f64d-49a2-4fcd-92e0-8c4782619735</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>.//*[@id='page-container']/div/div[1]/div/section/div[1]/div[1]/div[1]/div[3]/div/div[2]/div/div[2]/div[1]/div/div[1]/div[2]/span/input</value>
+         <value>.//*[@id='page-container']/div/div[1]/div/section/div[1]/div[1]/div[1]/div[3]/div/div[2]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -48,6 +45,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='page-container']/div/div[1]/div/section/div[1]/div[1]/div[1]/div[3]/div/div[2]/div/div[2]/div[1]/div/div[1]/div[2]/span/input</value>
+      <value>.//*[@id='page-container']/div/div[1]/div/section/div[1]/div[1]/div[1]/div[3]/div/div[2]/div</value>
    </webElementProperties>
 </WebElementEntity>

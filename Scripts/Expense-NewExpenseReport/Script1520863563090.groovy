@@ -35,7 +35,9 @@ WebUI.click(findTestObject('ExpensePage/NewExpenseReport'))
 
 WebUI.verifyElementPresent(findTestObject('ExpensePage/CreateNewExpenseSection/button_UserName'), 1)
 
-WebUI.setText(findTestObject('ExpensePage/CreateNewExpenseSection/input_ExpenseReportName'), 'AutomatedExpense')
+WebUI.verifyElementVisible(findTestObject('ExpensePage/CreateNewExpenseSection/input_input-basic'))
+
+not_run: WebUI.setText(findTestObject('ExpensePage/CreateNewExpenseSection/input_ExpenseReportName'), 'AutomatedExpense')
 
 not_run: WebUI.selectOptionByValue(findTestObject('ExpensePage/CreateNewExpenseSection/button_Purpose'), 'Non-Order Related', 
     false)
