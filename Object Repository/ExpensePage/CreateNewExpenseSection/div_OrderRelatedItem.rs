@@ -1,58 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_ExpenseReportName</name>
+   <name>div_OrderRelatedItem</name>
    <tag></tag>
-   <elementGuidId>a0f1f64d-49a2-4fcd-92e0-8c4782619735</elementGuidId>
+   <elementGuidId>e39e7c1e-d918-4a5d-8a09-ba5f74b345a7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'text' and @title = 'Expense Report name*']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>html body.withJs.en-GB.windows.useDeg.firefox.expense.tdte.svg-icon div#page-container div.container div div section.main div.col1 div.widget div.class_box_shadow.dashboardcreernote div.content-widget-form div div div div div div div.overlay-row div.ovrl-col2 span input.input-basic</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>//*[(text() = 'Order Related' or . = 'Order Related')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>__idx</name>
       <type>Main</type>
-      <value>text</value>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input-basic</value>
+      <value>sshead-form-box css</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>text</name>
       <type>Main</type>
-      <value>Expense Report name*</value>
+      <value>Order Related</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='page-container']/div/div[1]/div/section/div[1]/div[1]/div[1]</value>
+      <value>//*[@id=&quot;page-container&quot;]/div/div[1]/div/section/div[1]/div[1]/div[1]/div[3]/div/div[2]/div/div[2]/div[1]/div/div[6]/div/div[2]/button</value>
    </webElementProperties>
 </WebElementEntity>

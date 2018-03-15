@@ -1,50 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_input-basic</name>
+   <name>div_Training</name>
    <tag></tag>
-   <elementGuidId>a0f1f64d-49a2-4fcd-92e0-8c4782619735</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>.//*[@id='page-container']/div/div[1]/div/section/div[1]/div[1]/div[1]/div[3]/div/div[2]/div</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>4f13ced3-5459-4e06-aff2-d2fd00a38ee0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>__idx</name>
       <type>Main</type>
-      <value>text</value>
+      <value>6</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input-basic</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Expense Report name*</value>
+      <value>sshead-form-box</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Training</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='page-container']/div/div[1]/div/section/div[1]/div[1]/div[1]/div[3]/div/div[2]/div</value>
+      <value>/html[1]/body[@class=&quot;withJs en-US windows useDeg chrome expense tdte svg-icon myexpensemain&quot;]/div[@class=&quot;form-open editor&quot;]/div[@class=&quot;popupContent&quot;]/div[@class=&quot;form-box last&quot;]/div[1]/div[@class=&quot;sshead-form-box&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

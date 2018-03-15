@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_ExpenseReportName</name>
+   <name>button_Create</name>
    <tag></tag>
-   <elementGuidId>a0f1f64d-49a2-4fcd-92e0-8c4782619735</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'text' and @title = 'Expense Report name*']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>html body.withJs.en-GB.windows.useDeg.firefox.expense.tdte.svg-icon div#page-container div.container div div section.main div.col1 div.widget div.class_box_shadow.dashboardcreernote div.content-widget-form div div div div div div div.overlay-row div.ovrl-col2 span input.input-basic</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>75088a9f-b9b7-4108-86ff-27744971c4d9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,34 +11,34 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input-basic</value>
+      <value>gwt-Button btn-create</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>text</name>
       <type>Main</type>
-      <value>Expense Report name*</value>
+      <value>Create</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='page-container']/div/div[1]/div/section/div[1]/div[1]/div[1]</value>
+      <value>id(&quot;page-container&quot;)/div[@class=&quot;container&quot;]/div[1]/div[1]/section[@class=&quot;main&quot;]/div[@class=&quot;col1&quot;]/div[@class=&quot;widget&quot;]/div[@class=&quot;class_box_shadow dashboardcreernote&quot;]/div[@class=&quot;content-widget-form&quot;]/div[1]/div[2]/div[1]/div[@class=&quot;overlay-row-bottom&quot;]/button[@class=&quot;gwt-Button btn-create&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

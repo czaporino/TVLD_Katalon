@@ -1,58 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_ExpenseReportName</name>
+   <name>button_TravelReasonList</name>
    <tag></tag>
-   <elementGuidId>a0f1f64d-49a2-4fcd-92e0-8c4782619735</elementGuidId>
+   <elementGuidId>fb15063b-5e0c-4d47-9216-b09d62159d19</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'text' and @title = 'Expense Report name*']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>html body.withJs.en-GB.windows.useDeg.firefox.expense.tdte.svg-icon div#page-container div.container div div section.main div.col1 div.widget div.class_box_shadow.dashboardcreernote div.content-widget-form div div div div div div div.overlay-row div.ovrl-col2 span input.input-basic</value>
+         <value>//button[(text() = 'Travel Reason*' or . = 'Travel Reason*')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>//*[@id=&quot;page-container&quot;]/div/div[1]/div/section/div[1]/div[1]/div[1]/div[3]/div/div[2]/div/div[2]/div[1]/div/div[6]/div/div[2]/button/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input-basic</value>
+      <value>gwt-Button styled-select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Travel Reason*</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>text</name>
       <type>Main</type>
-      <value>Expense Report name*</value>
+      <value>Travel Reason*</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='page-container']/div/div[1]/div/section/div[1]/div[1]/div[1]</value>
+      <value>//*[@id=&quot;page-container&quot;]/div/div[1]/div/section/div[1]/div[1]/div[1]/div[3]/div/div[2]/div/div[2]/div[1]/div/div[6]/div/div[2]/button</value>
    </webElementProperties>
 </WebElementEntity>

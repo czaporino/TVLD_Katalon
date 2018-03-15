@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -25,25 +26,39 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://test.traveldoo.com/auth/sso/saml2/home/SHOP_ABBG')
 
-WebUI.waitForPageLoad(2)
+WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('HomePage/Expense'))
 
-WebUI.waitForPageLoad(1)
+WebUI.waitForPageLoad(2)
 
 WebUI.click(findTestObject('ExpensePage/NewExpenseReport'))
 
-WebUI.verifyElementPresent(findTestObject('ExpensePage/CreateNewExpenseSection/button_UserName'), 1)
+WebUI.verifyElementPresent(findTestObject('ExpensePage/CreateNewExpenseSection/button_UserName'), 3)
 
-WebUI.verifyElementVisible(findTestObject('ExpensePage/CreateNewExpenseSection/input_input-basic'))
+WebUI.waitForElementVisible(findTestObject('ExpensePage/CreateNewExpenseSection/input_ExpenseReportName'), 3)
 
-not_run: WebUI.setText(findTestObject('ExpensePage/CreateNewExpenseSection/input_ExpenseReportName'), 'AutomatedExpense')
+WebUI.click(findTestObject('ExpensePage/CreateNewExpenseSection/input_ExpenseReportName'))
 
-not_run: WebUI.selectOptionByValue(findTestObject('ExpensePage/CreateNewExpenseSection/button_Purpose'), 'Non-Order Related', 
-    false)
+WebUI.setText(findTestObject('ExpensePage/CreateNewExpenseSection/input_ExpenseReportName'), 'Report name automated')
 
-not_run: WebUI.selectOptionByValue(findTestObject('ExpensePage/CreateNewExpenseSection/button_TravelReason'), 'Training', 
-    false)
+WebUI.click(findTestObject('ExpensePage/CreateNewExpenseSection/button_PurposeList'))
 
-not_run: WebUI.setText(findTestObject('ExpensePage/CreateNewExpenseSection/textarea_Comments'), 'Automate expense text')
+WebUI.click(findTestObject('ExpensePage/CreateNewExpenseSection/div_OrderRelatedItem'))
+
+WebUI.verifyElementPresent(findTestObject('ExpensePage/CreateNewExpenseSection/button_TravelReasonList'), 1)
+
+WebUI.click(findTestObject('ExpensePage/CreateNewExpenseSection/button_TravelReasonList'))
+
+WebUI.click(findTestObject('ExpensePage/CreateNewExpenseSection/div_Training'))
+
+WebUI.setText(findTestObject('ExpensePage/CreateNewExpenseSection/textarea_InsertComment'), 'Automated added comment')
+
+WebUI.click(findTestObject('ExpensePage/CreateNewExpenseSection/button_Create'))
+
+WebUI.waitForElementPresent(findTestObject('VerifyMyProfileFields/Expenses/span_CreatedReportName'), 1)
+
+WebUI.verifyElementPresent(findTestObject('VerifyMyProfileFields/Expenses/div_MissingExpenseWarning'), 1)
+
+not_run: WebUI.closeBrowser()
 
